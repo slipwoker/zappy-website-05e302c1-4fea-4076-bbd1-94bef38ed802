@@ -2295,16 +2295,15 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   box-sizing: border-box;
 }
 
-/* ── Content Card ── */
 .home-hero-section .home-hero-card {
   position: relative;
-  background: rgba(252, 251, 248, 0.96);
-  box-shadow: 0 24px 80px rgba(28, 58, 74, 0.22);
+  background: transparent;
+  box-shadow: none;
   border-radius: 4px;
   padding: 48px 52px 52px;
   max-width: 520px;
   width: 100%;
-  border: 1px solid rgba(200, 169, 107, 0.18);
+  border: none;
   color: var(--text-dark);
 }
 
