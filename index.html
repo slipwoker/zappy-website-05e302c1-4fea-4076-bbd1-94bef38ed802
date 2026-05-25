@@ -349,7 +349,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "05e302c1-4fea-4076-bbd1-94bef38ed802";window.ZAPPY_API_BASE = "https://qaapi.zappy5.com";</script><a class="skip-link" href="#main">Skip to main content</a>
+<script>window.ZAPPY_WEBSITE_ID = "05e302c1-4fea-4076-bbd1-94bef38ed802";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "http://localhost:5001" : "https://qaapi.zappy5.com");</script><a class="skip-link" href="#main">Skip to main content</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -915,7 +915,7 @@
     </section>
   
 
-<section data-band-index="1" class="home-services-section" data-layout-spec="Home-services">
+<section data-band-index="1" class="home-services-section" data-layout-spec="Home-services" id="home-services-section">
   <!-- Watermark SVG -->
   <svg class="home-services-watermark" aria-hidden="true" data-no-icon-edit="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
     <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="120" font-weight="400" fill="none" stroke="#C8A96B" stroke-width="1" opacity="0.06">SR</text>
@@ -924,9 +924,9 @@
   <div class="home-services-container">
     <!-- LEFT: Content Column -->
     <div class="home-services-content">
-      <p class="home-services-eyebrow">Signature Services</p>
+      <p class="home-services-eyebrow" style="color: rgb(24, 22, 20) !important;">Signature Services</p>
       <h2 class="home-services-heading">White-Glove Real Estate Services in California</h2>
-      <p class="home-services-intro">From first inquiry to final keys, Sienna Rhodes delivers a calibre of residential real estate counsel reserved for those who expect nothing less than extraordinary. Every engagement is personal, precise, and completely discreet.</p>
+      <p class="home-services-intro" style="">From first inquiry to final keys, Sienna Rhodes delivers a calibre of residential real estate counsel reserved for those who expect nothing less than extraordinary. Every engagement is personal, precise, and completely discreet!</p>
 
       <!-- Service Block 1 -->
       <article class="home-services-block">
@@ -970,8 +970,8 @@
         </div>
       </article>
 
-      <a href="/contact" class="home-services-cta btn-primary">Schedule a Consultation</a>
-    </div>
+      <p><a href="/contact" class="home-services-cta btn-primary" data-element-type="button" data-element-id="btn-1779708534064-c6z4ske20" data-native-element="true">Schedule a Consultation</a>
+    </p></div>
 
     <!-- RIGHT: Image Column -->
     <div class="home-services-image-column">
@@ -979,7 +979,7 @@
       <div class="home-services-backplate" aria-hidden="true"></div>
       <!-- Framed image -->
       <div class="home-services-image-frame">
-        <img loading="lazy" decoding="async" data-placeholder="home-services-image-1" data-context="Tall architectural interior photograph of a stunning California luxury villa or high-end condo — floor-to-ceiling windows overlooking the Pacific Ocean or a manicured hillside estate, warm afternoon light flooding a minimalist living space with premium finishes, marble accents, and curated furnishings. Sophisticated, aspirational, editorial quality." src="/assets/site-home-services-image-1.webp" width="560" height="760" alt="Luxury California estate interior with panoramic views" class="home-services-photo">
+        <img loading="lazy" decoding="async" data-placeholder="home-services-image-1" data-context="Tall architectural interior photograph of a stunning California luxury villa or high-end condo — floor-to-ceiling windows overlooking the Pacific Ocean or a manicured hillside estate, warm afternoon light flooding a minimalist living space with premium finishes, marble accents, and curated furnishings. Sophisticated, aspirational, editorial quality." src="/assets/site-home-services-image-1.webp" width="560" height="760" alt="Luxury California estate interior with panoramic views" class="home-services-photo" data-element-type="image" data-element-id="img-1779708534068-01s33fmh0" style="">
       </div>
     </div>
   </div>
