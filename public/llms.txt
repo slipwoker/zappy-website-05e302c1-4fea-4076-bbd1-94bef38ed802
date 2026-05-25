@@ -1,0 +1,87 @@
+# Sienna Rhodes - Real Estate — Generative Engine Optimization Map
+
+> Sienna Rhodes is a luxury real estate agent based in California, specializing in high-end condos and private villas. Her brand exudes sophistication, exclusivity, and refined taste, catering to discerning buyers in the premium property market. The overall vibe is elegant, aspirational, and trust-inspiring — positioning Sienna as the go-to expert for California's most coveted properties.
+
+---
+
+## Pages
+
+### Home
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app
+Step into a world of exclusivity with Sienna Rhodes, California&#39;s premier luxury real estate expert. Explore coveted condos and private villas in the premium property market today.
+
+### Signature Services
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/services
+From curated property searches to seamless closings, our real estate services redefine luxury living. Discover signature solutions designed for California&#39;s most discerning buyers.
+
+### About Sienna
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/about
+Sienna Rhodes brings unmatched expertise to the department of real estate, guiding elite buyers with sophistication and trust. Learn why California&#39;s finest choose her as their agent.
+
+### Contact
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/contact
+Ready to find your dream villa or condo in California? Connect with Sienna Rhodes now and experience rpr real estate guidance crafted exclusively for premium property buyers.
+
+### Products
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/products
+Our Products - Sienna Rhodes - Real Estate
+
+### Product Detail
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/product/:slug
+Product Details - Sienna Rhodes - Real Estate
+
+### Category
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/category/:slug
+Products - Sienna Rhodes - Real Estate
+
+## Legal & Policy
+
+### Privacy Policy
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://sienna-rhodes-real-estate-05e302c1.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Sienna Rhodes - Real Estate
+Sienna Rhodes is a luxury real estate agent based in California, specializing in high-end condos and private villas. Her brand exudes sophistication, exclusivity, and refined taste, catering to discerning buyers in the premium property market. The overall vibe is elegant, aspirational, and trust-inspiring — positioning Sienna as the go-to expert for California's most coveted properties.
+
+## Services/Products
+- Luxury condo sales
+- Private villa sales
+- High-end real estate consulting
+
+## Target Audience
+- High-end buyers seeking luxury condos and private villas in California
+- High-Net-Worth Individuals
+- International Real Estate Investors
+- Tech Entrepreneurs
+- Retirees & Luxury Seekers
+
+## Industry
+Real Estate
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://sienna-rhodes-real-estate-05e302c1.zappy5.app/sitemap.xml
+- Robots: https://sienna-rhodes-real-estate-05e302c1.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://sienna-rhodes-real-estate-05e302c1.zappy5.app/llms-full.txt
+- Products (JSON): https://sienna-rhodes-real-estate-05e302c1.zappy5.app/products.json
+- Products (Google Merchant RSS): https://sienna-rhodes-real-estate-05e302c1.zappy5.app/product-feed.xml
