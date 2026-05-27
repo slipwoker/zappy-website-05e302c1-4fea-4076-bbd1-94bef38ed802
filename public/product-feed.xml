@@ -4,6 +4,31 @@
     <title>Sienna Rhodes - Real Estate</title>
     <link>https://example.com</link>
     <description>Product feed for Sienna Rhodes - Real Estate</description>
-    <lastBuildDate>Mon, 25 May 2026 10:23:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 10:08:29 GMT</lastBuildDate>
+    <item>
+      <g:id>3ca11782-06ab-4d9a-82d3-f7f7c182d99d</g:id>
+      <g:title>Penthouse </g:title>
+      <g:description>Penthouse</g:description>
+      <g:link>https://example.com/product/penthouse-rai6p5</g:link>
+      <g:image_link>https://example.com/assets/image-product-image-1779708504803-zyfn1d.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4500.00 USD</g:price>
+      <g:sale_price>4300.00 USD</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Sienna Rhodes - Real Estate</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>bc5c1a3d-914c-4398-b8e4-662af990f60d</g:id>
+      <g:title>Beautiful Villa </g:title>
+      <g:description>Beautiful Villa in California</g:description>
+      <g:link>https://example.com/product/beautiful-villa-t6fom8</g:link>
+      <g:image_link>https://example.com/assets/image-product-image-1779708382394-2s5xqn.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>5400.00 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Sienna Rhodes - Real Estate</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

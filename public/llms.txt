@@ -52,7 +52,20 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 2**
+
+### Penthouse 
+https://example.com/product/penthouse-rai6p5
+- Price: 4300.00 USD (sale, was 4500.00 USD)
+- Availability: In stock
+- Image: https://example.com/assets/image-product-image-1779708504803-zyfn1d.webp
+
+### Beautiful Villa 
+https://example.com/product/beautiful-villa-t6fom8
+- Price: 5400.00 USD
+- Availability: In stock
+- Description: Beautiful Villa in California
+- Image: https://example.com/assets/image-product-image-1779708382394-2s5xqn.webp
 
 ---
 

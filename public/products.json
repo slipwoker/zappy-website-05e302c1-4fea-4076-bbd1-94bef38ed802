@@ -1,8 +1,53 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-25T10:23:55.604Z",
+  "generated_at": "2026-05-27T10:08:29.836Z",
   "base_url": "https://example.com",
   "currency": "USD",
-  "count": 0,
-  "products": []
+  "count": 2,
+  "products": [
+    {
+      "id": "3ca11782-06ab-4d9a-82d3-f7f7c182d99d",
+      "slug": "penthouse-rai6p5",
+      "name": "Penthouse ",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 4300,
+      "base_price": 4500,
+      "sale_price": 4300,
+      "currency": "USD",
+      "images": [
+        "https://example.com/assets/image-product-image-1779708504803-zyfn1d.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/penthouse-rai6p5",
+      "categories": [],
+      "updated_at": "2026-05-25T11:28:50.890Z"
+    },
+    {
+      "id": "bc5c1a3d-914c-4398-b8e4-662af990f60d",
+      "slug": "beautiful-villa-t6fom8",
+      "name": "Beautiful Villa ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "Beautiful Villa in California ",
+      "sku": null,
+      "brand": null,
+      "price": 5400,
+      "base_price": 5400,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://example.com/assets/image-product-image-1779708382394-2s5xqn.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/beautiful-villa-t6fom8",
+      "categories": [],
+      "updated_at": "2026-05-25T11:26:42.905Z"
+    }
+  ]
 }
