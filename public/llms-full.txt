@@ -9,7 +9,7 @@ Source: https://example.com
 ## Sienna Rhodes - Real Estate
 
 URL: https://example.com
-Description: Step into a world of exclusivity with Sienna Rhodes, California&#39;s premier luxury real estate expert. Explore coveted condos and private villas in the premium property market today.
+Description: Step into a world of exclusivity with Sienna Rhodes, California. premier luxury real estate expert. Explore coveted condos and private villas in the premium property market today.
 
 Sienna Rhodes - Real Estate
 
@@ -391,7 +391,7 @@ Whether you're seeking a sun-drenched coastal villa or a curated high-rise condo
 
 
 
-schedule A CALL Meet Sienna Rhodes
+schedule A CALL ABOUT Sienna Rhodes
 
 
 
