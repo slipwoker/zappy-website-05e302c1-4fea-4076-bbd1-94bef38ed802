@@ -7,45 +7,45 @@
 ## Pages
 
 ### Home
-https://example.com
+https://sienna-rhodes-real-estate.zappy5.app
 Step into a world of exclusivity with Sienna Rhodes, California. premier luxury real estate expert. Explore coveted condos and private villas in the premium property market today.
 
 ### Signature Services
-https://example.com/services
+https://sienna-rhodes-real-estate.zappy5.app/services
 From curated property searches to seamless closings, our real estate services redefine luxury living. Discover signature solutions designed for California&#39;s most discerning buyers.
 
 ### About Sienna
-https://example.com/about
+https://sienna-rhodes-real-estate.zappy5.app/about
 Sienna Rhodes brings unmatched expertise to the department of real estate, guiding elite buyers with sophistication and trust. Learn why California&#39;s finest choose her as their agent.
 
 ### Contact
-https://example.com/contact
+https://sienna-rhodes-real-estate.zappy5.app/contact
 Ready to find your dream villa or condo in California? Connect with Sienna Rhodes now and experience rpr real estate guidance crafted exclusively for premium property buyers.
 
 ### Products
-https://example.com/products
+https://sienna-rhodes-real-estate.zappy5.app/products
 Our Products - Sienna Rhodes - Real Estate
 
 ### Product Detail
-https://example.com/product/:slug
+https://sienna-rhodes-real-estate.zappy5.app/product/:slug
 Product Details - Sienna Rhodes - Real Estate
 
 ### Category
-https://example.com/category/:slug
+https://sienna-rhodes-real-estate.zappy5.app/category/:slug
 Products - Sienna Rhodes - Real Estate
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://sienna-rhodes-real-estate.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://sienna-rhodes-real-estate.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://sienna-rhodes-real-estate.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -55,17 +55,17 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 2**
 
 ### Penthouse 
-https://example.com/product/penthouse-rai6p5
+https://sienna-rhodes-real-estate.zappy5.app/product/penthouse-rai6p5
 - Price: 4300.00 USD (sale, was 4500.00 USD)
 - Availability: In stock
-- Image: https://example.com/assets/image-product-image-1779708504803-zyfn1d.webp
+- Image: https://sienna-rhodes-real-estate.zappy5.app/assets/image-product-image-1779708504803-zyfn1d.webp
 
 ### Beautiful Villa 
-https://example.com/product/beautiful-villa-t6fom8
+https://sienna-rhodes-real-estate.zappy5.app/product/beautiful-villa-t6fom8
 - Price: 5400.00 USD
 - Availability: In stock
 - Description: Beautiful Villa in California
-- Image: https://example.com/assets/image-product-image-1779708382394-2s5xqn.webp
+- Image: https://sienna-rhodes-real-estate.zappy5.app/assets/image-product-image-1779708382394-2s5xqn.webp
 
 ---
 
@@ -93,8 +93,8 @@ Real Estate
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://sienna-rhodes-real-estate.zappy5.app/sitemap.xml
+- Robots: https://sienna-rhodes-real-estate.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://sienna-rhodes-real-estate.zappy5.app/llms-full.txt
+- Products (JSON): https://sienna-rhodes-real-estate.zappy5.app/products.json
+- Products (Google Merchant RSS): https://sienna-rhodes-real-estate.zappy5.app/product-feed.xml

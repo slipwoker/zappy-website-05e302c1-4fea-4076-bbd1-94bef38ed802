@@ -2,13 +2,13 @@
 
 Sienna Rhodes is a luxury real estate agent based in California, specializing in high-end condos and private villas. Her brand exudes sophistication, exclusivity, and refined taste, catering to discerning buyers in the premium property market. The overall vibe is elegant, aspirational, and trust-inspiring — positioning Sienna as the go-to expert for California's most coveted properties.
 
-Source: https://example.com
+Source: https://sienna-rhodes-real-estate.zappy5.app
 
 ---
 
 ## Sienna Rhodes - Real Estate
 
-URL: https://example.com
+URL: https://sienna-rhodes-real-estate.zappy5.app
 Description: Step into a world of exclusivity with Sienna Rhodes, California. premier luxury real estate expert. Explore coveted condos and private villas in the premium property market today.
 
 Sienna Rhodes - Real Estate
@@ -455,7 +455,7 @@ Return Policy
 
 ## Elite Property Services Tailored for You — Sienna Rhodes - Real Estate
 
-URL: https://example.com/services
+URL: https://sienna-rhodes-real-estate.zappy5.app/services
 Description: From curated property searches to seamless closings, our real estate services redefine luxury living. Discover signature solutions designed for California&#39;s most discerning buyers.
 
 Elite Property Services Tailored for You — Sienna Rhodes - Real Estate
@@ -1011,7 +1011,7 @@ Return Policy
 
 ## Meet the Expert Behind California&#39;s Luxury Market — Sienna Rhodes - Real Estate
 
-URL: https://example.com/about
+URL: https://sienna-rhodes-real-estate.zappy5.app/about
 Description: Sienna Rhodes brings unmatched expertise to the department of real estate, guiding elite buyers with sophistication and trust. Learn why California&#39;s finest choose her as their agent.
 
 Meet the Expert Behind California's Luxury Market — Sienna Rhodes - Real Estate
@@ -1470,7 +1470,7 @@ Return Policy
 
 ## Start Your Luxury Property Journey Today — Sienna Rhodes - Real Estate
 
-URL: https://example.com/contact
+URL: https://sienna-rhodes-real-estate.zappy5.app/contact
 Description: Ready to find your dream villa or condo in California? Connect with Sienna Rhodes now and experience rpr real estate guidance crafted exclusively for premium property buyers.
 
 Start Your Luxury Property Journey Today — Sienna Rhodes - Real Estate
@@ -1974,7 +1974,7 @@ Return Policy
 
 ## Products
 
-URL: https://example.com/products
+URL: https://sienna-rhodes-real-estate.zappy5.app/products
 Description: Our Products - Sienna Rhodes - Real Estate
 
 Products - Sienna Rhodes - Real Estate
@@ -2150,7 +2150,7 @@ Return Policy
 
 ## Product Details
 
-URL: https://example.com/product/:slug
+URL: https://sienna-rhodes-real-estate.zappy5.app/product/:slug
 Description: Product Details - Sienna Rhodes - Real Estate
 
 Product Details - Sienna Rhodes - Real Estate
@@ -2304,7 +2304,7 @@ Return Policy
 
 ## Products
 
-URL: https://example.com/category/:slug
+URL: https://sienna-rhodes-real-estate.zappy5.app/category/:slug
 Description: Products - Sienna Rhodes - Real Estate
 
 Products - Sienna Rhodes - Real Estate
@@ -2482,7 +2482,7 @@ Return Policy
 
 ## Privacy Policy
 
-URL: https://example.com/privacy
+URL: https://sienna-rhodes-real-estate.zappy5.app/privacy
 Description: Our privacy policy - how we collect, use, and protect your information
 
 Privacy Policy
@@ -2724,7 +2724,7 @@ Return Policy
 
 ## Accessibility Statement
 
-URL: https://example.com/accessibility
+URL: https://sienna-rhodes-real-estate.zappy5.app/accessibility
 Description: Our accessibility statement - our commitment to digital accessibility
 
 Accessibility Statement
@@ -2972,7 +2972,7 @@ Return Policy
 
 ## Terms & Conditions
 
-URL: https://example.com/terms
+URL: https://sienna-rhodes-real-estate.zappy5.app/terms
 Description: Terms of service - user rights and obligations
 
 Terms & Conditions
@@ -3243,14 +3243,14 @@ Return Policy
 ## Product Catalog
 
 ### Penthouse 
-URL: https://example.com/product/penthouse-rai6p5
+URL: https://sienna-rhodes-real-estate.zappy5.app/product/penthouse-rai6p5
 Price: 4300.00 USD (sale, was 4500.00 USD)
 Availability: In stock
 
 ---
 
 ### Beautiful Villa 
-URL: https://example.com/product/beautiful-villa-t6fom8
+URL: https://sienna-rhodes-real-estate.zappy5.app/product/beautiful-villa-t6fom8
 Price: 5400.00 USD
 Availability: In stock
 
