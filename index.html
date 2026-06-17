@@ -314,1142 +314,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
-
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
-.home-services-section {
-  position: relative;
-  overflow: visible;
-  background: #FDF6EC;
-  background: var(--bg-light);
-  color: #1a1a1a;
-  color: var(--text-dark);
-  padding: 80px 24px 100px;
-  font-family: 'Inter', sans-serif;
-}
-
-/* Watermark */
-.home-services-section__watermark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: repeating-linear-gradient(45deg, rgba(200,169,110,0.04) 0px, rgba(200,169,110,0.04) 2px, transparent 2px, transparent 8px);
-  pointer-events: none;
-  z-index: 0;
-}
-
-/* Header */
-.home-services-section__header {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  max-width: 720px;
-  margin: 0 auto 56px;
-}
-
-.home-services-section__ornament {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin-bottom: 24px;
-  color: #D4A843;
-  color: var(--secondary);
-}
-
-.home-services-section__ornament--bottom {
-  margin-top: 24px;
-  margin-bottom: 0;
-}
-
-.home-services-section__ornament-line {
-  display: block;
-  width: 80px;
-  height: 1px;
-  background: #D4A843;
-  background: var(--secondary);
-  opacity: 0.6;
-}
-
-.home-services-section__ornament-diamond {
-  flex-shrink: 0;
-  color: #D4A843;
-  color: var(--secondary);
-  opacity: 0.8;
-}
-
-.home-services-section__title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 1.2;
-  color: #1a1a1a;
-  color: var(--text-dark);
-  margin: 0 0 16px;
-}
-
-.home-services-section__subtitle {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #6b7280;
-  color: var(--text-muted);
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-/* Grid */
-.home-services-section__grid {
-  position: relative;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 32px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Card */
-.home-services-section__card {
-  background: #FFFFFF;
-  border-radius: 4px;
-  box-shadow: 0 10px 40px rgba(28,58,74,0.08);
-  overflow: hidden;
-  position: relative;
-}
-
-.home-services-section__card-arch {
-  position: relative;
-  padding: 3px;
-  background: linear-gradient(180deg, #D4A843 0%, rgba(212,168,67,0.15) 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 90%, 0% 100%);
-}
-
-.home-services-section__card-inner {
-  background: #FFFFFF;
-  padding: 48px 32px 40px;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 90%, 0% 100%);
-  text-align: center;
-}
-
-.home-services-section__card-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: rgba(212,168,67,0.08);
-  color: #D4A843;
-  color: var(--secondary);
-  margin-bottom: 24px;
-}
-
-.home-services-section__card-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.375rem;
-  font-weight: 400;
-  line-height: 1.4;
-  color: #1a1a1a;
-  color: var(--text-dark);
-  margin: 0 0 16px;
-}
-
-.home-services-section__card-divider {
-  display: block;
-  width: 48px;
-  height: 1px;
-  background: #D4A843;
-  background: var(--secondary);
-  margin: 0 auto 20px;
-  opacity: 0.5;
-}
-
-.home-services-section__card-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #6b7280;
-  color: var(--text-muted);
-  margin: 0;
-}
-
-/* Divider */
-.home-services-section__divider-wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.home-services-section__divider-wrapper svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/* Responsive */
-@media (min-width: 768px) {
-  .home-services-section {
-    padding: 100px 40px 120px;
-  }
-
-  .home-services-section__title {
-    font-size: 2.4rem;
-  }
-
-  .home-services-section__grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-  }
-
-  .home-services-section__card-inner {
-    padding: 48px 28px 40px;
-  }
-}
-
-@media (max-width: 768px) {
-  .home-services-section {
-    padding: 80px 16px 100px;
-  }
-
-  .home-services-section__grid {
-    grid-template-columns: 1fr !important;
-  }
-
-  .home-services-section__card-inner {
-    padding: 40px 20px 36px;
-  }
-}
-</style>
-
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
-.home-testimonials-section {
-  position: relative;
-  overflow: visible;
-  background-color: #1C3A4A;
-  background-image:
-    radial-gradient(circle at 20% 30%, rgba(200,169,110,0.06) 0%, transparent 50%),
-    radial-gradient(circle at 80% 70%, rgba(200,169,110,0.04) 0%, transparent 50%),
-    linear-gradient(180deg, #1C3A4A 0%, #152D3A 100%);
-  color: var(--text-light);
-  padding: 100px 16px 100px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* Background Zellige Pattern */
-.home-testimonials-section__bg-pattern {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.04;
-  background-image: repeating-linear-gradient(45deg, var(--secondary) 0px, var(--secondary) 1px, transparent 1px, transparent 20px),
-                    repeating-linear-gradient(-45deg, var(--secondary) 0px, var(--secondary) 1px, transparent 1px, transparent 20px);
-}
-
-/* Decorative Lantern */
-.home-testimonials-section__decor-lantern {
-  position: absolute;
-  top: 60px;
-  left: 30px;
-  z-index: 1;
-  pointer-events: none;
-  width: 120px;
-  height: 180px;
-  opacity: 0.6;
-}
-
-.home-testimonials-section__decor-lantern svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Container */
-.home-testimonials-section__container {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-/* Header */
-.home-testimonials-section__header {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.home-testimonials-section__divider-ornament {
-  margin-bottom: 24px;
-  display: flex;
-  justify-content: center;
-}
-
-.home-testimonials-section__divider-ornament svg {
-  width: 200px;
-  height: 20px;
-}
-
-.home-testimonials-section__title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.4rem;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 1.2;
-  color: var(--text-light);
-  margin: 0 0 16px;
-}
-
-.home-testimonials-section__subtitle {
-  font-size: 0.95rem;
-  font-weight: 400;
-  line-height: 1.75;
-  color: var(--text-light);
-  opacity: 0.8;
-  margin: 0;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Grid */
-.home-testimonials-section__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-}
-
-/* Card */
-.home-testimonials-section__card {
-  position: relative;
-  background: var(--bg-light);
-  border-radius: 4px;
-  box-shadow: 0 10px 40px rgba(28,58,74,0.15);
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.home-testimonials-section__card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 48px rgba(28,58,74,0.25);
-}
-
-/* Arched Top */
-.home-testimonials-section__card-arch {
-  position: absolute;
-  top: -38px;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  z-index: 3;
-  pointer-events: none;
-}
-
-.home-testimonials-section__card-arch svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-/* Card Inner */
-.home-testimonials-section__card-inner {
-  padding: 48px 32px 32px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  color: var(--text-dark);
-}
-
-/* Quote Icon */
-.home-testimonials-section__quote-icon {
-  margin-bottom: 20px;
-  width: 48px;
-  height: 48px;
-  color: var(--secondary);
-  opacity: 0.7;
-}
-
-.home-testimonials-section__quote-icon svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Quote Text */
-.home-testimonials-section__quote {
-  margin: 0 0 24px;
-  flex: 1;
-}
-
-.home-testimonials-section__quote p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.95rem;
-  font-weight: 400;
-  line-height: 1.75;
-  color: #4A5F6A;
-  margin: 0;
-  font-style: italic;
-}
-
-/* Divider */
-.home-testimonials-section__divider {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.home-testimonials-section__divider svg {
-  width: 120px;
-  height: 10px;
-}
-
-/* Client Info */
-.home-testimonials-section__client {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.home-testimonials-section__client-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.3;
-  color: #1A2832;
-}
-
-.home-testimonials-section__client-role {
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #6B7C88;
-}
-
-/* Bottom Scalloped Divider */
-.home-testimonials-section__divider-wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.home-testimonials-section__divider-wrapper svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .home-testimonials-section {
-    padding: 80px 16px 80px;
-  }
-
-  .home-testimonials-section__grid {
-    grid-template-columns: 1fr !important;
-    gap: 40px;
-  }
-
-  .home-testimonials-section__title {
-    font-size: 2rem;
-  }
-
-  .home-testimonials-section__card-inner {
-    padding: 48px 24px 24px;
-  }
-
-  .home-testimonials-section__decor-lantern {
-    display: none;
-  }
-
-  .home-testimonials-section__header {
-    margin-bottom: 40px;
-  }
-}
-</style>
-
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
-.home-cta-section {
-  position: relative;
-  overflow: visible;
-  background: var(--bg-light);
-  color: var(--text-dark);
-  padding: 100px 24px 120px;
-  text-align: center;
-}
-
-/* Watermark */
-.home-cta-section__watermark {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
-  color: var(--secondary);
-  opacity: 0.04;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.home-cta-section__watermark svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Ornament */
-.home-cta-section__ornament {
-  position: absolute;
-  top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
-  height: 40px;
-  color: var(--secondary);
-  opacity: 0.6;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.home-cta-section__ornament svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Container */
-.home-cta-section__container {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Divider Line */
-.home-cta-section__divider {
-  width: 80px;
-  height: 2px;
-  background: var(--secondary);
-  margin: 0 auto 32px;
-  opacity: 0.7;
-}
-
-/* Title */
-.home-cta-section__title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--text-dark);
-  margin: 0 0 16px;
-  letter-spacing: 0.5px;
-}
-
-/* Subtitle */
-.home-cta-section__subtitle {
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.7;
-  color: var(--text-muted);
-  max-width: 680px;
-  margin: 0 auto 48px;
-}
-
-/* Image Strip */
-.home-cta-section__image-strip {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-bottom: 48px;
-}
-
-/* Image Card */
-.home-cta-section__image-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-.home-cta-section__frame {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  overflow: hidden;
-  border-radius: 2px;
-  box-shadow: var(--shadow-soft);
-  background: #E8E2D9;
-}
-
-.home-cta-section__frame::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid var(--border-light);
-  border-radius: 2px;
-  z-index: 2;
-  pointer-events: none;
-  opacity: 0.4;
-}
-
-.home-cta-section__frame::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(199, 91, 57, 0) 0%, rgba(199, 91, 57, 0.15) 100%);
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  z-index: 1;
-}
-
-.home-cta-section__image-card:hover .home-cta-section__frame::after {
-  opacity: 1;
-}
-
-.home-cta-section__frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.6s ease;
-}
-
-.home-cta-section__image-card:hover .home-cta-section__frame img {
-  transform: scale(1.05);
-}
-
-/* Arched Moorish Frame Styling via pseudo-element */
-.home-cta-section__frame::before {
-  content: '';
-  position: absolute;
-  inset: 6px;
-  border: 1px solid rgba(212, 168, 67, 0.3);
-  border-radius: 2px;
-  z-index: 3;
-  pointer-events: none;
-}
-
-/* Gold Ornamental Divider */
-.home-cta-section__gold-divider {
-  width: 120px;
-  height: 20px;
-  margin: 0 auto 40px;
-  color: var(--secondary);
-  opacity: 0.7;
-}
-
-.home-cta-section__gold-divider svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* CTA Group */
-.home-cta-section__cta-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
-
-/* Buttons */
-.home-cta-section__btn {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  padding: 14px 32px;
-  border-radius: 2px;
-}
-
-.home-cta-section__btn--primary {
-  background: var(--primary);
-  color: #FFFFFF;
-  border: none;
-}
-
-.home-cta-section__btn--primary:hover {
-  background: var(--accent);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(199, 91, 57, 0.25);
-}
-
-.home-cta-section__btn--secondary {
-  background: transparent;
-  color: var(--primary);
-  border: 1.5px solid var(--secondary);
-}
-
-.home-cta-section__btn--secondary:hover {
-  background: rgba(212, 168, 67, 0.08);
-  border-color: var(--primary);
-  color: var(--primary);
-  transform: translateY(-2px);
-}
-
-/* Zellige Tile SVG Divider at Bottom */
-.home-cta-section__divider-wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.home-cta-section__divider-wrapper svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .home-cta-section {
-    padding: 80px 16px 100px;
-  }
-
-  .home-cta-section__watermark {
-    width: 250px;
-    height: 250px;
-    opacity: 0.05;
-  }
-
-  .home-cta-section__ornament {
-    top: 30px;
-    width: 150px;
-    height: 30px;
-  }
-
-  .home-cta-section__title {
-    font-size: 1.75rem;
-  }
-
-  .home-cta-section__subtitle {
-    font-size: 1rem;
-    margin-bottom: 32px;
-  }
-
-  .home-cta-section__image-strip {
-    grid-template-columns: 1fr !important;
-    gap: 16px;
-    margin-bottom: 32px;
-  }
-
-  .home-cta-section__cta-group {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .home-cta-section__btn {
-    width: 100%;
-    text-align: center;
-    padding: 14px 20px;
-  }
-
-  .home-cta-section__divider-wrapper {
-    height: 50px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .home-cta-section__image-strip {
-    gap: 16px;
-  }
-}
-/* ZAPPY_POSTGEN_GUARD_FAITHFUL_LAYOUT:Home-cta (home-cta) */
-[data-layout-spec="Home-cta"] .deco-asset[data-deco-layer="sticker"] {
-  max-width: min(var(--deco-w), 18vw) !important;
-}
-[data-layout-spec="Home-cta"] .home-cta-action,
-[data-layout-spec="Home-cta"] .home-cta-btn,
-[data-layout-spec="Home-cta"] .btn,
-[data-layout-spec="Home-cta"] .cta-row { position: relative !important; z-index: 25 !important; }
-[data-layout-spec="Home-cta"] .deco-asset[alt*="delivery truck"],
-[data-layout-spec="Home-cta"] .deco-asset[alt*="pizza delivery truck"] {
-  right: max(18px, 12%) !important;
-  left: auto !important;
-  top: 32% !important;
-  width: min(var(--deco-w), 72px) !important;
-  max-width: 72px !important;
-}
-@media (max-width: 1100px) {
-  [data-layout-spec="Home-cta"] .deco-asset[data-deco-layer="sticker"] { display: none !important; }
-}
-
-</style>
-
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
-.home-hero-section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #2B1E14;
-  color: var(--text-light);
-  padding: 120px 24px 100px;
-}
-
-/* Background Image Layer */
-.home-hero-section__bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-
-.home-hero-section__bg-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Warm Amber-to-Terracotta Overlay Scrim */
-.home-hero-section__scrim {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background: linear-gradient(
-    to bottom,
-    rgba(199, 91, 57, 0.35) 0%,
-    rgba(180, 80, 50, 0.45) 30%,
-    rgba(43, 30, 20, 0.75) 70%,
-    rgba(43, 30, 20, 0.92) 100%
-  );
-  pointer-events: none;
-}
-
-/* SR Monogram Watermark */
-.home-hero-section__watermark {
-  position: absolute;
-  bottom: 120px;
-  right: 40px;
-  width: 320px;
-  height: 320px;
-  z-index: 2;
-  pointer-events: none;
-  color: var(--secondary);
-  opacity: 0.06;
-}
-
-.home-hero-section__watermark svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Decorative Corner Brackets */
-.home-hero-section__corner {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  z-index: 3;
-  pointer-events: none;
-  color: var(--secondary);
-  opacity: 0.5;
-}
-
-.home-hero-section__corner--tl {
-  top: 40px;
-  left: 40px;
-}
-
-.home-hero-section__corner--tr {
-  top: 40px;
-  right: 40px;
-}
-
-.home-hero-section__corner--bl {
-  bottom: 100px;
-  left: 40px;
-}
-
-.home-hero-section__corner--br {
-  bottom: 100px;
-  right: 40px;
-}
-
-.home-hero-section__corner svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* 8-Pointed Star Arabesque Monogram */
-.home-hero-section__star {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
-  z-index: 2;
-  pointer-events: none;
-  color: var(--secondary);
-  opacity: 0.07;
-}
-
-.home-hero-section__star svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* Content Overlay Group */
-.home-hero-section__content {
-  position: relative;
-  z-index: 10;
-  max-width: 800px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 28px;
-}
-
-/* Ornamental Gold Divider Line */
-.home-hero-section__divider-line {
-  width: 200px;
-  height: 20px;
-  color: var(--secondary);
-  opacity: 0.8;
-}
-
-.home-hero-section__divider-line svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-/* Headline */
-.home-hero-section__headline {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3.2rem;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 1.15;
-  color: var(--text-light);
-  margin: 0;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-  max-width: 700px;
-}
-
-/* Subtitle */
-.home-hero-section__subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.05rem;
-  font-weight: 400;
-  line-height: 1.75;
-  color: var(--text-light);
-  margin: 0;
-  opacity: 0.9;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
-  max-width: 600px;
-}
-
-/* CTAs Container */
-.home-hero-section__ctas {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 8px;
-}
-
-/* Primary Button - Moorish Arched Styling */
-.home-hero-section__btn--primary {
-  display: inline-block;
-  background: var(--primary);
-  color: var(--text-light);
-  padding: 14px 32px;
-  border-radius: 100px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 8px 24px rgba(199, 91, 57, 0.35);
-  position: relative;
-  overflow: hidden;
-}
-
-.home-hero-section__btn--primary::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 100px;
-  border: 1.5px solid var(--secondary);
-  opacity: 0.3;
-  pointer-events: none;
-}
-
-.home-hero-section__btn--primary:hover {
-  background: var(--accent);
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(199, 91, 57, 0.5);
-}
-
-/* Secondary Button - Ghost with Gold Border */
-.home-hero-section__btn--secondary {
-  display: inline-block;
-  background: transparent;
-  color: var(--text-light);
-  padding: 14px 32px;
-  border-radius: 100px;
-  border: 1.5px solid var(--secondary);
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  backdrop-filter: blur(4px);
-  background: rgba(43, 30, 20, 0.3);
-}
-
-.home-hero-section__btn--secondary:hover {
-  background: rgba(212, 168, 67, 0.15);
-  border-color: var(--accent);
-  color: var(--secondary);
-  transform: translateY(-2px);
-}
-
-/* Moroccan Zellige-Pattern Border at Bottom */
-.home-hero-section__zellige-border {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  z-index: 5;
-  pointer-events: none;
-  color: var(--secondary);
-  opacity: 0.7;
-}
-
-.home-hero-section__zellige-border svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .home-hero-section {
-    padding: 100px 16px 80px;
-    min-height: 100vh;
-    min-height: 100dvh;
-  }
-
-  .home-hero-section__headline {
-    font-size: 2.2rem;
-    max-width: 100%;
-  }
-
-  .home-hero-section__subtitle {
-    font-size: 0.95rem;
-    max-width: 100%;
-  }
-
-  .home-hero-section__ctas {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 12px;
-  }
-
-  .home-hero-section__btn--primary,
-  .home-hero-section__btn--secondary {
-    width: 100%;
-    text-align: center;
-    padding: 14px 24px;
-  }
-
-  .home-hero-section__watermark {
-    width: 180px;
-    height: 180px;
-    bottom: 100px;
-    right: 10px;
-    opacity: 0.04;
-  }
-
-  .home-hero-section__star {
-    width: 250px;
-    height: 250px;
-    opacity: 0.05;
-  }
-
-  .home-hero-section__corner {
-    width: 40px;
-    height: 40px;
-  }
-
-  .home-hero-section__corner--tl {
-    top: 20px;
-    left: 16px;
-  }
-
-  .home-hero-section__corner--tr {
-    top: 20px;
-    right: 16px;
-  }
-
-  .home-hero-section__corner--bl {
-    bottom: 80px;
-    left: 16px;
-  }
-
-  .home-hero-section__corner--br {
-    bottom: 80px;
-    right: 16px;
-  }
-
-  .home-hero-section__zellige-border {
-    height: 40px;
-  }
-
-  .home-hero-section__divider-line {
-    width: 140px;
-    height: 16px;
-  }
-}
-/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:home-hero */
-.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
-@media (max-width: 1024px) {
-  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
-}
-@media (max-width: 768px) {
-  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
-}
-
-</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1555,7 +419,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "05e302c1-4fea-4076-bbd1-94bef38ed802";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "http://localhost:5001" : "https://qaapi.zappy5.com");</script><a class="skip-link" href="#main">Skip to main content</a>
+<script>window.ZAPPY_WEBSITE_ID = "05e302c1-4fea-4076-bbd1-94bef38ed802";window.ZAPPY_API_BASE = "https://qaapi.zappy5.com";</script><a class="skip-link" href="#main">Skip to main content</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -2043,89 +907,27 @@
 </script>
   
   <main id="main">
-    <section class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="home-hero-section">
-  <!-- Background Image -->
-  <div class="home-hero-section__bg">
-    <img data-hero-bg="true" data-context="Luxury California villa with Moroccan riad courtyard aesthetic, warm terracotta and amber tones, elegant archways, lush greenery, golden hour sunlight casting soft shadows, high-end real estate photography style" width="1200" height="600" src="/assets/sienna-rhodes-real-estate-real-estate-section-Home-hero-home-hero-image-1.webp" alt="Luxury California villa with Moroccan inspired courtyard" class="home-hero-section__bg-img" data-zappy-editable-image="true" data-hero-background="true" data-element-type="image" data-element-id="img-1781705694668-xukrqpejc" style="object-position: 50% 50%">
-  </div>
-
-  <!-- Warm Amber-to-Terracotta Overlay Scrim -->
-  <div class="home-hero-section__scrim" aria-hidden="true"></div>
-
-  <!-- Decorative SR Monogram Watermark -->
-  <div class="home-hero-section__watermark" aria-hidden="true">
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <path d="M60 40 L60 160 M60 100 L140 100 M100 40 L100 160 M140 40 L140 160 M40 40 L40 160 M160 40 L160 160" stroke="currentColor" stroke-width="2" fill="none" opacity="0.7"></path>
-      <circle cx="100" cy="100" r="70" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"></circle>
-    </svg>
-  </div>
-
-  <!-- Decorative Corner Brackets -->
-  <div class="home-hero-section__corner home-hero-section__corner--tl" aria-hidden="true">
-    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <path d="M5 55 L5 5 L55 5" stroke="currentColor" stroke-width="1.5" fill="none"></path>
-    </svg>
-  </div>
-  <div class="home-hero-section__corner home-hero-section__corner--tr" aria-hidden="true">
-    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <path d="M5 5 L55 5 L55 55" stroke="currentColor" stroke-width="1.5" fill="none"></path>
-    </svg>
-  </div>
-  <div class="home-hero-section__corner home-hero-section__corner--bl" aria-hidden="true">
-    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <path d="M5 5 L5 55 L55 55" stroke="currentColor" stroke-width="1.5" fill="none"></path>
-    </svg>
-  </div>
-  <div class="home-hero-section__corner home-hero-section__corner--br" aria-hidden="true">
-    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <path d="M55 5 L55 55 L5 55" stroke="currentColor" stroke-width="1.5" fill="none"></path>
-    </svg>
-  </div>
-
-  <!-- Decorative 8-Pointed Star Arabesque Monogram -->
-  <div class="home-hero-section__star" aria-hidden="true">
-    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <polygon points="50,5 61,35 95,35 68,55 79,85 50,65 21,85 32,55 5,35 39,35" fill="none" stroke="currentColor" stroke-width="1.2"></polygon>
-      <circle cx="50" cy="50" r="15" fill="none" stroke="currentColor" stroke-width="0.8"></circle>
-    </svg>
-  </div>
-
-  <!-- Content Overlay Group -->
-  <div class="home-hero-section__content">
-    <!-- Ornamental Gold Divider Line Above Headline -->
-    <div class="home-hero-section__divider-line" aria-hidden="true">
-      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-        <line x1="0" y1="10" x2="85" y2="10" stroke="currentColor" stroke-width="1"></line>
-        <circle cx="100" cy="10" r="3" fill="currentColor"></circle>
-        <line x1="115" y1="10" x2="200" y2="10" stroke="currentColor" stroke-width="1"></line>
-      </svg>
-    </div>
-
-    <h1 class="home-hero-section__headline" style="color: rgb(43, 30, 20) !important;"><span style="color: #d4a843 !important">California's Most Coveted Addresses Begin Here</span></h1>
-    <h3 class="home-hero-section__subtitle" style="color: rgb(43, 30, 20) !important;">Sienna Rhodes specializes in high-end condos and private villas for discerning buyers seeking the pinnacle of West Coast luxury living.</h3>
-    
-    <div class="home-hero-section__ctas">
-      <a href="/contact" class="home-hero-section__btn home-hero-section__btn--primary" data-element-type="button" data-element-id="btn-1781705694666-w7t1hsg86" data-native-element="true" style="color: rgb(0, 0, 0) !important;">Inquire Now</a>
-      <a href="/about" class="home-hero-section__btn home-hero-section__btn--secondary" data-element-type="button" data-element-id="btn-1781705694666-jopx4b3cm" data-native-element="true">Meet Sienna</a>
-    </div>
-  </div>
-
-  <!-- Moroccan Zellige-Pattern Border at Bottom -->
-  <div class="home-hero-section__zellige-border" aria-hidden="true">
-    <svg viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <defs>
-        <pattern id="zellige-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-          <polygon points="20,2 38,20 20,38 2,20" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.5"></polygon>
-          <polygon points="20,10 30,20 20,30 10,20" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.3"></polygon>
-          <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.6"></circle>
-        </pattern>
-      </defs>
-      <rect x="0" y="0" width="1200" height="60" fill="url(#zellige-pattern)"></rect>
-      <line x1="0" y1="2" x2="1200" y2="2" stroke="currentColor" stroke-width="1" opacity="0.7"></line>
-      <line x1="0" y1="58" x2="1200" y2="58" stroke="currentColor" stroke-width="1" opacity="0.7"></line>
-    </svg>
-  </div>
-</section>
+    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="home-hero-section"><div class="home-hero-carousel">
+  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img loading="eager" fetchpriority="high" data-placeholder="home-hero-carousel-1" data-context="Sunlit California luxury villa exterior with a pristine infinity pool, white stucco architecture, and sweeping views of coastal hillside terrain bathed in golden afternoon light. Lush Mediterranean landscaping, terracotta accents, and a serene, aspirational atmosphere evoking premium California real estate." width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Luxury California villa with ocean hillside views" class="hero-carousel-img active" data-element-type="image" data-element-id="img-1781703408954-0uqgp5sze"></a>
+  <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1-1781704741102-ze2w8e.webp?v=1781704741102" alt="Luxury California estate with panoramic coastal views" class="hero-carousel-img" data-placeholder="home-hero-carousel-2" data-element-type="image"></a>
+  <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1-1781704770960-laa0q6.webp?v=1781704770960" alt="Premium California property with stunning architecture" class="hero-carousel-img" data-placeholder="home-hero-carousel-3" data-element-type="image"></a>
+</div>
+<script>
+(function() {
+  const carousel = document.querySelector('.home-hero-carousel');
+  if (!carousel) return;
+  const imgs = carousel.querySelectorAll('.hero-carousel-img');
+  if (imgs.length < 2) return;
+  let current = 0;
+  const total = imgs.length;
+  function nextSlide() {
+    imgs[current].classList.remove('active');
+    current = (current + 1) % total;
+    imgs[current].classList.add('active');
+  }
+  setInterval(nextSlide, 4000);
+})();
+</script></section>
 
     
   
@@ -2133,318 +935,233 @@
     
   
 
-<section class="home-services-section" data-layout-spec="Home-services" id="home-services-section">
-  <!-- Background pattern watermark (aria-hidden) -->
-  <div class="home-services-section__watermark" aria-hidden="true"></div>
+<section data-band-index="1" class="home-services-section" data-layout-spec="Home-services" id="home-services-section">
+  <!-- Watermark SVG -->
+  <svg class="home-services-watermark" aria-hidden="true" data-no-icon-edit="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="120" font-weight="400" fill="none" stroke="#C8A96B" stroke-width="1" opacity="0.06">SR</text>
+  </svg>
 
-  <!-- Header with ornamental gold lines -->
-  <div class="home-services-section__header">
-    <div class="home-services-section__ornament">
-      <span class="home-services-section__ornament-line"></span>
-      <svg class="home-services-section__ornament-diamond" data-element-type="icon" data-icon-type="svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 0L8.5 4.5L12 6L8.5 7.5L6 12L3.5 7.5L0 6L3.5 4.5L6 0Z" fill="currentColor"></path></svg>
-      <span class="home-services-section__ornament-line"></span>
-    </div>
-    <h2 class="home-services-section__title">Signature Services</h2>
-    <p class="home-services-section__subtitle">White-glove guidance for California's most discerning buyers. From iconic condos to private villas, every engagement is built on discretion, deep market fluency, and uncompromising advocacy.</p>
-    <div class="home-services-section__ornament home-services-section__ornament--bottom">
-      <span class="home-services-section__ornament-line"></span>
-      <svg class="home-services-section__ornament-diamond" data-element-type="icon" data-icon-type="svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 0L8.5 4.5L12 6L8.5 7.5L6 12L3.5 7.5L0 6L3.5 4.5L6 0Z" fill="currentColor"></path></svg>
-      <span class="home-services-section__ornament-line"></span>
+  <div class="home-services-container">
+    <!-- LEFT: Content Column -->
+    <div class="home-services-content">
+      <p class="home-services-eyebrow" style="color: rgb(24, 22, 20) !important;">Signature Services</p>
+      <h2 class="home-services-heading">White-Glove Real Estate Services in California</h2>
+      <p class="home-services-intro" >From first inquiry to final keys, Sienna Rhodes delivers a calibre of residential real estate counsel reserved for those who expect nothing less than extraordinary. Every engagement is personal, precise, and completely discreet!!!!</p>
+
+      <!-- Service Block 1 -->
+      <article class="home-services-block">
+        <div class="home-services-block-accent" aria-hidden="true">
+          <svg data-no-icon-edit="true" aria-hidden="true" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="0" x2="16" y2="0" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+            <line x1="0" y1="0" x2="0" y2="16" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+          </svg>
+        </div>
+        <div class="home-services-block-body">
+          <h3 class="home-services-block-title">Luxury Buyer Representation</h3>
+          <p class="home-services-block-desc">Sienna represents discerning buyers with unmatched market fluency across California's most coveted condos and private estates. Every offer is crafted with surgical negotiation skill to secure the finest properties at optimal terms.</p>
+        </div>
+      </article>
+
+      <!-- Service Block 2 -->
+      <article class="home-services-block">
+        <div class="home-services-block-accent" aria-hidden="true">
+          <svg data-no-icon-edit="true" aria-hidden="true" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="0" x2="16" y2="0" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+            <line x1="0" y1="0" x2="0" y2="16" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+          </svg>
+        </div>
+        <div class="home-services-block-body">
+          <h3 class="home-services-block-title">Private Villa Acquisition Strategy</h3>
+          <p class="home-services-block-desc">For clients seeking secluded estates and private villas, Sienna provides bespoke acquisition strategies — accessing off-market listings, curating property shortlists, and guiding each step with refined expertise and absolute confidentiality.</p>
+        </div>
+      </article>
+
+      <!-- Service Block 3 -->
+      <article class="home-services-block">
+        <div class="home-services-block-accent" aria-hidden="true">
+          <svg data-no-icon-edit="true" aria-hidden="true" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="0" x2="16" y2="0" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+            <line x1="0" y1="0" x2="0" y2="16" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+          </svg>
+        </div>
+        <div class="home-services-block-body">
+          <h3 class="home-services-block-title">Discreet Investor Guidance</h3>
+          <p class="home-services-block-desc">High-net-worth investors trust Sienna for portfolio-level real estate counsel — from identifying high-yield luxury assets to navigating the nuances of California's premium property market with discretion and long-term vision.</p>
+        </div>
+      </article>
+
+      <p style="text-align: center"><a href="/contact" class="home-services-cta btn-primary" data-element-type="button" data-element-id="btn-1779708534064-c6z4ske20" data-native-element="true">Schedule a Consultation</a>
+    </p></div>
+
+    <!-- RIGHT: Image Column -->
+    <div class="home-services-image-column">
+      <!-- Champagne backplate -->
+      <div class="home-services-backplate" aria-hidden="true"></div>
+      <!-- Framed image -->
+      <div class="home-services-image-frame">
+        <div data-zappy-zoom-wrapper="true" data-element-id="img-1779708534068-01s33fmh0" data-element-type="image" data-zappy-zoom-wrapper-width="479px" data-zappy-zoom-wrapper-height="681px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 479px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 681px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="home-services-image-1" data-context="Tall architectural interior photograph of a stunning California luxury villa or high-end condo — floor-to-ceiling windows overlooking the Pacific Ocean or a manicured hillside estate, warm afternoon light flooding a minimalist living space with premium finishes, marble accents, and curated furnishings. Sophisticated, aspirational, editorial quality." src="/assets/site-home-services-image-1-1781703479529-o3svpa.webp?v=1781703482383" width="560" height="760" alt="Luxury California estate interior with panoramic views" class="home-services-photo" data-element-type="image" data-element-id="img-1779708534068-01s33fmh0" style="object-position: 50% 50% !important; display: block; object-fit: cover; margin: 0px !important; left: -5.18874% !important; top: -1% !important; width: 110.377% !important; height: 102% !important; max-width: none !important; max-height: none !important;" data-zappy-zoom="1.02" data-zappy-original-width="478.857177734375" data-zappy-original-height="680.9910888671875" data-zappy-object-position="50% 50%"></div>
+      </div>
     </div>
   </div>
 
-  <!-- Services Grid -->
-  <div class="home-services-section__grid">
-    <!-- Card 1: Luxury Buyer Representation -->
-    <article class="home-services-section__card">
-      <div class="home-services-section__card-arch">
-        <div class="home-services-section__card-inner">
-          <div class="home-services-section__card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 2L22.5 9.5L30 12L22.5 14.5L20 22L17.5 14.5L10 12L17.5 9.5L20 2Z" fill="currentColor"></path>
-              <path d="M20 18L22.5 25.5L30 28L22.5 30.5L20 38L17.5 30.5L10 28L17.5 25.5L20 18Z" fill="currentColor" opacity="0.4"></path>
-            </svg>
-          </div>
-          <h3 class="home-services-section__card-title">Luxury Buyer Representation</h3>
-          <span class="home-services-section__card-divider" aria-hidden="true"></span>
-          <p class="home-services-section__card-text">A bespoke search experience tailored to your lifestyle. From private showings to off-market opportunities, every detail is orchestrated with precision and care.</p>
-        </div>
-      </div>
-    </article>
-
-    <!-- Card 2: Private Villa Acquisition -->
-    <article class="home-services-section__card">
-      <div class="home-services-section__card-arch">
-        <div class="home-services-section__card-inner">
-          <div class="home-services-section__card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 2L22.5 9.5L30 12L22.5 14.5L20 22L17.5 14.5L10 12L17.5 9.5L20 2Z" fill="currentColor"></path>
-              <path d="M20 18L22.5 25.5L30 28L22.5 30.5L20 38L17.5 30.5L10 28L17.5 25.5L20 18Z" fill="currentColor" opacity="0.4"></path>
-            </svg>
-          </div>
-          <h3 class="home-services-section__card-title">Private Villa Acquisition</h3>
-          <span class="home-services-section__card-divider" aria-hidden="true"></span>
-          <p class="home-services-section__card-text">Specialized expertise in California's most exclusive estates. We navigate complex negotiations and discreet transactions with the utmost confidentiality.</p>
-        </div>
-      </div>
-    </article>
-
-    <!-- Card 3: Discreet Investor Guidance -->
-    <article class="home-services-section__card">
-      <div class="home-services-section__card-arch">
-        <div class="home-services-section__card-inner">
-          <div class="home-services-section__card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 2L22.5 9.5L30 12L22.5 14.5L20 22L17.5 14.5L10 12L17.5 9.5L20 2Z" fill="currentColor"></path>
-              <path d="M20 18L22.5 25.5L30 28L22.5 30.5L20 38L17.5 30.5L10 28L17.5 25.5L20 18Z" fill="currentColor" opacity="0.4"></path>
-            </svg>
-          </div>
-          <h3 class="home-services-section__card-title">Discreet Investor Guidance</h3>
-          <span class="home-services-section__card-divider" aria-hidden="true"></span>
-          <p class="home-services-section__card-text">Strategic portfolio analysis for high-net-worth investors. We identify undervalued assets and emerging opportunities with data-driven insight and market intuition.</p>
-        </div>
-      </div>
-    </article>
-  </div>
-
-  <!-- Bottom SVG Divider (Zellige-inspired terracotta tones) -->
-  <div class="home-services-section__divider-wrapper" data-no-icon-edit="true" aria-hidden="true">
-    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <pattern id="zelligePattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-          <path d="M20 0L30 10L20 20L10 10Z" fill="#C75B39" opacity="0.15"></path>
-          <path d="M0 20L10 30L0 40L-10 30Z" fill="#C75B39" opacity="0.1"></path>
-          <path d="M40 20L50 30L40 40L30 30Z" fill="#C75B39" opacity="0.1"></path>
-        </pattern>
-      </defs>
-      <rect x="0" y="0" width="1200" height="80" fill="url(#zelligePattern)"></rect>
-      <path d="M0,80 L0,45 Q50,38 100,44 T200,42 Q250,46 300,40 T400,45 Q450,38 500,43 T600,40 Q650,45 700,42 T800,44 Q850,38 900,43 T1000,40 Q1050,45 1100,42 T1200,44 L1200,80 Z" fill="#C75B39" opacity="0.85"></path>
-      <path d="M0,80 L0,52 Q60,46 120,51 T240,48 Q300,52 360,47 T480,51 Q540,46 600,50 T720,48 Q780,52 840,49 T960,51 Q1020,46 1080,50 T1200,48 L1200,80 Z" fill="#C75B39" opacity="0.7"></path>
+  <!-- Bottom diagonal clip divider -->
+  <div class="home-services-divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,48 L1440,8 L1440,80 Z" fill="#152D3A"></path>
     </svg>
   </div>
 </section>
 
-<section class="home-testimonials-section" data-layout-spec="Home-testimonials">
-  <!-- Background Pattern -->
-  <div class="home-testimonials-section__bg-pattern" aria-hidden="true"></div>
-
-  <!-- Decorative Lantern SVG Top Left -->
-  <div class="home-testimonials-section__decor-lantern" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 180" xmlns="http://www.w3.org/2000/svg">
-      <path d="M60,20 L70,40 L110,45 L80,70 L85,110 L60,90 L35,110 L40,70 L10,45 L50,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1.5" opacity="0.3"></path>
-      <path d="M60,30 L66,42 L80,44 L68,58 L70,80 L60,68 L50,80 L52,58 L40,44 L54,42 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
-      <circle cx="60" cy="55" r="3" fill="var(--secondary)" opacity="0.5"></circle>
-      <line x1="60" y1="90" x2="60" y2="110" stroke="var(--secondary)" stroke-width="1.5" opacity="0.3"></line>
+<section data-band-index="2" class="home-testimonials-section" data-layout-spec="Home-testimonials">
+  <!-- Subtle SR monogram watermark -->
+  <div class="home-testimonials-section__watermark" aria-hidden="true">
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true" aria-hidden="true">
+      <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="160" font-weight="300" fill="#C8A96B" opacity="0.06" letter-spacing="-8">SR</text>
     </svg>
   </div>
 
-  <!-- Container -->
   <div class="home-testimonials-section__container">
     <!-- Section Header -->
-    <div class="home-testimonials-section__header">
-      <div class="home-testimonials-section__divider-ornament" aria-hidden="true">
-        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="10" x2="70" y2="10" stroke="var(--secondary)" stroke-width="1" opacity="0.6"></line>
-          <path d="M80,10 L85,5 L90,10 L85,15 Z" fill="var(--secondary)" opacity="0.6"></path>
-          <path d="M100,10 L105,5 L110,10 L105,15 Z" fill="var(--secondary)" opacity="0.6"></path>
-          <circle cx="95" cy="10" r="1.5" fill="var(--secondary)" opacity="0.6"></circle>
-          <line x1="115" y1="10" x2="200" y2="10" stroke="var(--secondary)" stroke-width="1" opacity="0.6"></line>
-        </svg>
-      </div>
-      <h2 class="home-testimonials-section__title">Esteemed Client Perspectives</h2>
-      <p class="home-testimonials-section__subtitle">Trust, discretion, and access — the cornerstones of every relationship.</p>
-    </div>
+    <header class="home-testimonials-section__header">
+      <p class="home-testimonials-section__eyebrow">Client Experiences</p>
+      <div class="home-testimonials-section__gold-rule" aria-hidden="true"></div>
+      <h2 class="home-testimonials-section__heading">Trusted by Those Who Expect the Best</h2>
+      <p class="home-testimonials-section__intro">Every transaction is a relationship built on discretion, expertise, and an unwavering commitment to finding the right property. Here is what a few clients have shared about working with Sienna.</p>
+    </header>
 
-    <!-- Testimonials Grid -->
+    <nav class="zappy-catalog-menu ltr" id="zappy-catalog-menu" dir="ltr" style="display:none">
+      <div class="catalog-menu-container">
+        <a href="/en/products" class="catalog-menu-item catalog-menu-all">All Products</a>
+        <div class="catalog-menu-categories" id="zappy-category-links">
+          <!-- Categories will be loaded dynamically -->
+        </div>
+      </div>
+    </nav>
+  
+
+    <!-- Testimonial Grid -->
     <div class="home-testimonials-section__grid">
-      
-      <!-- Card 1 -->
-      <div class="home-testimonials-section__card">
-        <div class="home-testimonials-section__card-arch" aria-hidden="true">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,40 L0,10 Q200,-30 400,10 L400,40 Z" fill="var(--bg-light)"></path>
-            <path d="M0,40 L0,12 Q200,-26 400,12 L400,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
-          </svg>
-        </div>
-        <div class="home-testimonials-section__card-inner">
-          <div class="home-testimonials-section__quote-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12,20 C8,20 4,24 4,30 C4,38 10,40 14,36 C16,34 16,30 14,28 C12,26 10,26 10,28 C10,30 12,32 10,36 C8,40 4,36 4,30 C4,24 8,20 12,20 Z" fill="var(--secondary)" opacity="0.6"></path>
-              <path d="M36,20 C32,20 28,24 28,30 C28,38 34,40 38,36 C40,34 40,30 38,28 C36,26 34,26 34,28 C34,30 36,32 34,36 C32,40 28,36 28,30 C28,24 32,20 36,20 Z" fill="var(--secondary)" opacity="0.6"></path>
-            </svg>
-          </div>
-          <blockquote class="home-testimonials-section__quote">
-            <p>Sienna's understanding of the Silicon Valley luxury market is unparalleled. She found us a private villa that wasn't even listed yet — her discretion and network are invaluable. The entire process felt effortless and truly bespoke.</p>
-          </blockquote>
-          <div class="home-testimonials-section__divider" aria-hidden="true">
-            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
-              <line x1="0" y1="5" x2="40" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
-              <circle cx="60" cy="5" r="2" fill="var(--secondary)" opacity="0.5"></circle>
-              <line x1="80" y1="5" x2="120" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
-            </svg>
-          </div>
-          <div class="home-testimonials-section__client">
-            <span class="home-testimonials-section__client-name">Marcus Thorne</span>
-            <span class="home-testimonials-section__client-role">Tech Entrepreneur &amp; Buyer</span>
-          </div>
-        </div>
-      </div>
 
-      <!-- Card 2 -->
-      <div class="home-testimonials-section__card">
-        <div class="home-testimonials-section__card-arch" aria-hidden="true">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,40 L0,10 Q200,-30 400,10 L400,40 Z" fill="var(--bg-light)"></path>
-            <path d="M0,40 L0,12 Q200,-26 400,12 L400,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
-          </svg>
-        </div>
+      <!-- Card 1: Tech Entrepreneur -->
+      <article class="home-testimonials-section__card">
         <div class="home-testimonials-section__card-inner">
-          <div class="home-testimonials-section__quote-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12,20 C8,20 4,24 4,30 C4,38 10,40 14,36 C16,34 16,30 14,28 C12,26 10,26 10,28 C10,30 12,32 10,36 C8,40 4,36 4,30 C4,24 8,20 12,20 Z" fill="var(--secondary)" opacity="0.6"></path>
-              <path d="M36,20 C32,20 28,24 28,30 C28,38 34,40 38,36 C40,34 40,30 38,28 C36,26 34,26 34,28 C34,30 36,32 34,36 C32,40 28,36 28,30 C28,24 32,20 36,20 Z" fill="var(--secondary)" opacity="0.6"></path>
-            </svg>
-          </div>
+          <div class="home-testimonials-section__quote-mark" aria-hidden="true">“</div>
           <blockquote class="home-testimonials-section__quote">
-            <p>As an international investor, I needed someone who understood discretion and high-value asset acquisition. Sienna guided me through the California coastal market with calm expertise, securing a penthouse that exceeded every expectation.</p>
+            <p>Sienna moved with the same precision and speed I demand from my own team. She understood exactly what I was looking for in a Malibu residence — private, architecturally significant, and investment-sound. We closed in under three weeks. Exceptional access to properties that never reach the public market.</p>
           </blockquote>
-          <div class="home-testimonials-section__divider" aria-hidden="true">
-            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
-              <line x1="0" y1="5" x2="40" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
-              <circle cx="60" cy="5" r="2" fill="var(--secondary)" opacity="0.5"></circle>
-              <line x1="80" y1="5" x2="120" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
-            </svg>
-          </div>
-          <div class="home-testimonials-section__client">
-            <span class="home-testimonials-section__client-name">Elena Vasquez</span>
-            <span class="home-testimonials-section__client-role">International Investor</span>
-          </div>
+          <footer class="home-testimonials-section__card-footer">
+            <div class="home-testimonials-section__thin-rule" aria-hidden="true"></div>
+            <p class="home-testimonials-section__client-type">Tech Entrepreneur &amp; First-Time Luxury Buyer</p>
+            <p class="home-testimonials-section__outcome">Off-market Malibu villa — acquired $4.2M</p>
+          </footer>
         </div>
-      </div>
+      </article>
 
-      <!-- Card 3 -->
-      <div class="home-testimonials-section__card">
-        <div class="home-testimonials-section__card-arch" aria-hidden="true">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,40 L0,10 Q200,-30 400,10 L400,40 Z" fill="var(--bg-light)"></path>
-            <path d="M0,40 L0,12 Q200,-26 400,12 L400,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
-          </svg>
-        </div>
+      <!-- Card 2: International Investor -->
+      <article class="home-testimonials-section__card">
         <div class="home-testimonials-section__card-inner">
-          <div class="home-testimonials-section__quote-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12,20 C8,20 4,24 4,30 C4,38 10,40 14,36 C16,34 16,30 14,28 C12,26 10,26 10,28 C10,30 12,32 10,36 C8,40 4,36 4,30 C4,24 8,20 12,20 Z" fill="var(--secondary)" opacity="0.6"></path>
-              <path d="M36,20 C32,20 28,24 28,30 C28,38 34,40 38,36 C40,34 40,30 38,28 C36,26 34,26 34,28 C34,30 36,32 34,36 C32,40 28,36 28,30 C28,24 32,20 36,20 Z" fill="var(--secondary)" opacity="0.6"></path>
-            </svg>
-          </div>
+          <div class="home-testimonials-section__quote-mark" aria-hidden="true">“</div>
           <blockquote class="home-testimonials-section__quote">
-            <p>Relocating to California felt daunting until we met Sienna. She listened, understood our lifestyle, and found a serene coastal retreat that felt like home instantly. Her calm guidance made all the difference.</p>
+            <p>As an international investor navigating California's residential real estate market for the first time, I needed someone I could trust completely. Sienna's knowledge of the premium condo landscape in Los Angeles and her calm, measured guidance made a complex process feel effortless. She is, without question, the right advisor.</p>
           </blockquote>
-          <div class="home-testimonials-section__divider" aria-hidden="true">
-            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
-              <line x1="0" y1="5" x2="40" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
-              <circle cx="60" cy="5" r="2" fill="var(--secondary)" opacity="0.5"></circle>
-              <line x1="80" y1="5" x2="120" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
-            </svg>
-          </div>
-          <div class="home-testimonials-section__client">
-            <span class="home-testimonials-section__client-name">David &amp; Susan Chen</span>
-            <span class="home-testimonials-section__client-role">Retirees Relocating to California</span>
-          </div>
+          <footer class="home-testimonials-section__card-footer">
+            <div class="home-testimonials-section__thin-rule" aria-hidden="true"></div>
+            <p class="home-testimonials-section__client-type">International Investor — Singapore</p>
+            <p class="home-testimonials-section__outcome">Penthouse acquisition, West Hollywood — $3.8M</p>
+          </footer>
         </div>
-      </div>
+      </article>
+
+      <!-- Card 3: Retiree Relocating -->
+      <article class="home-testimonials-section__card">
+        <div class="home-testimonials-section__card-inner">
+          <div class="home-testimonials-section__quote-mark" aria-hidden="true">“</div>
+          <blockquote class="home-testimonials-section__quote">
+            <p>Relocating from the East Coast at this stage of life required a very particular kind of patience and understanding. Sienna listened. She never rushed us, never pushed. She simply presented the right options at the right moment — and the La Jolla villa we found together is everything we dreamed of for this chapter.</p>
+          </blockquote>
+          <footer class="home-testimonials-section__card-footer">
+            <div class="home-testimonials-section__thin-rule" aria-hidden="true"></div>
+            <p class="home-testimonials-section__client-type">Retiree Relocating to California</p>
+            <p class="home-testimonials-section__outcome">Oceanfront villa, La Jolla — $5.1M</p>
+          </footer>
+        </div>
+      </article>
 
     </div>
+    <!-- End Grid -->
   </div>
 
-  <!-- Bottom Scalloped Divider -->
-  <div class="home-testimonials-section__divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,40 Q75,20 150,35 T300,30 Q375,40 450,25 T600,35 Q675,20 750,30 T900,25 Q975,35 1050,30 T1200,40 L1200,80 Z" fill="#F5F2EE"></path>
+  <!-- Bottom Wave Divider transitioning to light section -->
+  <div class="home-testimonials-section__divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,90 L0,52 Q120,38 240,50 T480,44 Q600,52 720,42 T960,48 Q1080,38 1200,50 T1440,44 L1440,90 Z" fill="#F5F2EE"></path>
     </svg>
   </div>
 </section>
 
-<section class="home-cta-section" data-layout-spec="Home-cta" id="home-cta-section">
-  <!-- Background Watermark -->
-  <div class="home-cta-section__watermark" aria-hidden="true">
-    <svg data-no-icon-edit="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-      <path d="M100 10 L120 80 L190 70 L140 110 L200 160 L160 170 L120 130 L80 190 L70 140 L30 180 L50 120 L10 90 L60 60 Z" fill="none" stroke="currentColor" stroke-width="2"></path>
-      <circle cx="100" cy="100" r="8" fill="currentColor"></circle>
-    </svg>
-  </div>
+<section data-band-index="3" class="home-cta-section" data-layout-spec="Home-cta" id="home-cta-section">
 
-  <!-- Zellige Ornament Above Heading -->
-  <div class="home-cta-section__ornament" aria-hidden="true">
-    <svg data-no-icon-edit="true" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
-      <path d="M20 20 L40 5 L60 20 L40 35 Z" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      <path d="M70 20 L90 5 L110 20 L90 35 Z" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      <path d="M120 20 L140 5 L160 20 L140 35 Z" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-      <line x1="10" y1="20" x2="20" y2="20" stroke="currentColor" stroke-width="1.5"></line>
-      <line x1="60" y1="20" x2="70" y2="20" stroke="currentColor" stroke-width="1.5"></line>
-      <line x1="110" y1="20" x2="120" y2="20" stroke="currentColor" stroke-width="1.5"></line>
-      <line x1="160" y1="20" x2="190" y2="20" stroke="currentColor" stroke-width="1.5"></line>
-    </svg>
-  </div>
+  <!-- Decorative SR monogram watermark -->
+  <svg class="home-cta-monogram" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="160" font-weight="300" fill="none" stroke="#C8A96B" stroke-width="1">SR</text>
+  </svg>
 
-  <div class="home-cta-section__container">
-    <!-- Gold Divider Line -->
-    <div class="home-cta-section__divider" aria-hidden="true"></div>
+  <div class="home-cta-container">
 
-    <h2 class="home-cta-section__title">Begin Your Confidential Journey</h2>
-    <p class="home-cta-section__subtitle">
-      Exceptional residences deserve a discreet and personalized approach. Let us guide you through California's most coveted properties with the utmost care and sophistication.
-    </p>
-
-    <!-- Image Strip -->
-    <div class="home-cta-section__image-strip">
-      <div class="home-cta-section__image-card">
-        <div class="home-cta-section__frame">
-          <img data-context="Luxurious stone-textured exterior wall of a California private villa with Mediterranean architectural details and warm sunlight casting soft shadows" width="600" height="400" src="/assets/sienna-rhodes-real-estate-real-estate-section-Home-cta-home-cta-image-1.webp" alt="Stone texture exterior of a luxury California villa" data-zappy-editable-image="true">
-        </div>
-      </div>
-      <div class="home-cta-section__image-card">
-        <div class="home-cta-section__frame">
-          <img data-context="Expansive ocean-view terrace of a high-end California condo with elegant outdoor furniture, glass railings, and the Pacific Ocean in the background at golden hour" width="600" height="400" src="/assets/sienna-rhodes-real-estate-real-estate-section-Home-cta-home-cta-image-2.webp" alt="Ocean view terrace of a luxury California condo" data-zappy-editable-image="true">
-        </div>
-      </div>
-      <div class="home-cta-section__image-card">
-        <div class="home-cta-section__frame">
-          <img data-context="Bright and airy interior of a modern California villa with floor-to-ceiling windows, neutral-toned designer furniture, and natural light flooding the open-plan living space" width="600" height="400" src="/assets/sienna-rhodes-real-estate-real-estate-section-Home-cta-home-cta-image-3.webp" alt="Bright interior of a modern California villa" data-zappy-editable-image="true">
-        </div>
-      </div>
-    </div>
-
-    <!-- Gold Ornamental Divider -->
-    <div class="home-cta-section__gold-divider" aria-hidden="true">
-      <svg data-no-icon-edit="true" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="10" x2="40" y2="10" stroke="currentColor" stroke-width="1.5"></line>
-        <circle cx="60" cy="10" r="3" fill="currentColor"></circle>
-        <line x1="80" y1="10" x2="120" y2="10" stroke="currentColor" stroke-width="1.5"></line>
+    <!-- Gold divider ornament top -->
+    <div class="home-cta-ornament" aria-hidden="true">
+      <svg data-no-icon-edit="true" aria-hidden="true" width="160" height="12" viewBox="0 0 160 12" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="6" x2="66" y2="6" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
+        <circle cx="80" cy="6" r="3" fill="none" stroke="#C8A96B" stroke-width="1" opacity="0.7"></circle>
+        <circle cx="80" cy="6" r="1" fill="#C8A96B" opacity="0.7"></circle>
+        <line x1="94" y1="6" x2="160" y2="6" stroke="#C8A96B" stroke-width="1" opacity="0.6"></line>
       </svg>
     </div>
 
+    <!-- Eyebrow label -->
+    <p class="home-cta-eyebrow" style="color: rgb(24, 22, 20) !important;">Begin Your Search</p>
+
+    <!-- Heading -->
+    <h2 class="home-cta-heading">Let's Find Your Exceptional<br><br>California Residence</h2>
+
+    <!-- Body copy -->
+    <p class="home-cta-body">Whether you're seeking a sun-drenched coastal villa or a curated high-rise condo in the heart of California's most coveted communities, Sienna Rhodes offers a confidential, white-glove experience tailored to your vision. Reach out to begin a private conversation about your next exceptional property.</p>
+
     <!-- CTA Buttons -->
-    <div class="home-cta-section__cta-group">
-      <a href="/contact" class="home-cta-section__btn home-cta-section__btn--primary">
-        Schedule a Private Consultation
-      </a>
-      <a href="/about" class="home-cta-section__btn home-cta-section__btn--secondary">
-        Discover Our Philosophy
-      </a>
+    <div class="home-cta-buttons">
+      <p><a href="https://calendar.app.google/u2hNxSqJz5f9bDEVA" class="home-cta-btn-primary" data-element-type="button" data-element-id="btn-1780924702270-i1yt0y2yp" data-native-element="true" style="outline: none; color: var(--text-color, #1a1a1a) !important; border-color: transparent !important; background-color: transparent !important; background-image: linear-gradient(135deg, rgb(168, 144, 103), rgb(255, 255, 255)) !important;" data-text-color="dark" target="_blank" rel="noopener noreferrer">schedule A CALL</a>
+      <a href="/about" class="home-cta-btn-secondary" data-element-type="button" data-element-id="btn-1780924702270-fcpwdfkhv" data-native-element="true" style="outline: none;">ABOUT Sienna Rhodes</a></p>
     </div>
+
+    <!-- Thin gold divider -->
+    <div class="home-cta-divider" aria-hidden="true"></div>
+
+    <!-- Architectural detail image strip -->
+    <div class="home-cta-image-strip zappy-preserve-css-grid" id="zappy-auto-grid-1780924702317-6f7im6" data-zappy-auto-grid="true" data-original-item-width="253" data-original-gap="20px" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+
+      <figure class="home-cta-figure zappy-grid-item-media-only" data-grid-item-index="0">
+        <img loading="lazy" decoding="async" data-placeholder="home-cta-image-1" data-context="Close-up architectural detail of premium California villa: natural travertine stone wall texture with warm sunlight casting shallow shadows, suggesting material richness and craftsmanship. Warm neutral tones, editorial real estate photography style." width="400" height="260" src="/assets/site-home-cta-image-1.webp" alt="Stone texture detail of a luxury California property" data-element-type="image" data-element-id="img-1780924702273-xrvs7cjwi" >
+      </figure>
+
+      <figure class="home-cta-figure zappy-grid-item-media-only" data-grid-item-index="1">
+        <img loading="lazy" decoding="async" data-placeholder="home-cta-image-2" data-context="Ocean-view terrace of a luxury California villa: a refined outdoor terrace with clean architectural lines, minimal furniture, and a sweeping Pacific Ocean horizon view. Soft afternoon light, upscale real estate photography, aspirational and serene." width="400" height="260" src="/assets/site-home-cta-image-2.webp" alt="Ocean-view terrace of a luxury California villa" data-element-type="image" data-element-id="img-1780924702273-fcppzx8k6" >
+      </figure>
+
+      <figure class="home-cta-figure zappy-grid-item-media-only" data-grid-item-index="2">
+        <img loading="lazy" decoding="async" data-placeholder="home-cta-image-3" data-context="Bright interior vignette of a luxury California condo: a corner of an elegant living room with floor-to-ceiling windows, warm natural light, neutral linen furnishings, and a single sculptural accent piece. High-end residential real estate photography." width="400" height="260" src="/assets/site-home-cta-image-3.webp" alt="Bright interior detail of a luxury California condo" data-element-type="image" data-element-id="img-1780924702273-hfayckm5i" >
+      </figure>
+
+    </div>
+
+    <!-- Caption below images -->
+    <p class="home-cta-caption">Exceptional residential real estate across California's most prestigious communities.</p>
+
   </div>
 
-  <!-- Zellige Tile SVG Divider at Bottom -->
-  <div class="home-cta-section__divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,40 L30,30 L60,45 L90,25 L120,40 L150,35 L180,45 L210,30 L240,40 L270,35 L300,45 L330,25 L360,40 L390,35 L420,45 L450,30 L480,40 L510,35 L540,45 L570,25 L600,40 L630,35 L660,45 L690,30 L720,40 L750,35 L780,45 L810,25 L840,40 L870,35 L900,45 L930,30 L960,40 L990,35 L1020,45 L1050,25 L1080,40 L1110,35 L1140,45 L1170,30 L1200,40 L1200,80 Z" fill="var(--bg-dark)"></path>
-    </svg>
-  </div>
 </section>
   </main>
   
-  <footer class="site-footer" aria-label="Site Footer" style="background-color: #2B1E14; color: #FDF6EC"><div class="footer-inner"><div class="footer-top"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link" aria-label="Sienna Rhodes - Real Estate home"><img class="logo" data-placeholder="logo" data-context="business logo" width="150" height="40" src="/assets/site-home-image-1.webp" alt="Sienna Rhodes - Real Estate"></a><p class="footer-tagline">California's trusted advisor for prestigious condos and private villas. Curated real estate experiences built on elegance, clarity, and personal credibility.</p><div class="footer-social" aria-label="Social media links"></div></div><div class="footer-col footer-col--links"><h3 class="footer-heading"><span class="heading-accent"></span>Quick Links</h3><ul class="footer-nav" aria-label="Quick navigation links"><li><a href="/">Home</a></li><li><a href="/services">Signature Services</a></li><li><a href="/about">About Sienna</a></li><li><a href="/contact">Contact</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="heading-accent"></span>Get In Touch</h3><ul class="footer-contact" aria-label="Contact information"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--hours"><h3 class="footer-heading"><span class="heading-accent"></span>Office Hours</h3><ul class="footer-hours" aria-label="Business hours"><li><a href="/"><span class="day">Mon – Fri</span><span class="time">9:00 AM – 6:00 PM</span></a></li><li><a href="/"><span class="day">Saturday</span><span class="time">10:00 AM – 4:00 PM</span></a></li><li><a href="/"><span class="day">Sunday</span><span class="time">Closed</span></a></li></ul><p class="hours-note">Private viewings available by appointment.</p></div></div><div class="footer-divider" role="separator"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 Sienna Rhodes - Real Estate. All rights reserved.</p><div class="footer-legal" aria-label="Legal links"><a href="/privacy">Privacy Policy</a><span class="legal-sep" aria-hidden="true">·</span><a href="/terms">Terms &amp; Conditions</a><span class="separator">|</span>
+  <footer class="site-footer" aria-label="Site Footer"><div class="footer-inner"><div class="footer-top"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link" aria-label="Sienna Rhodes - Real Estate home"><img class="logo" data-placeholder="logo" data-context="business logo" width="150" height="40" src="/assets/site-home-image-1.webp" alt="Sienna Rhodes - Real Estate"></a><p class="footer-tagline">California's trusted advisor for prestigious condos and private villas. Curated real estate experiences built on elegance, clarity, and personal credibility.</p><div class="footer-social" aria-label="Social media links"></div></div><div class="footer-col footer-col--links"><h3 class="footer-heading"><span class="heading-accent"></span>Quick Links</h3><ul class="footer-nav" aria-label="Quick navigation links"><li><a href="/">Home</a></li><li><a href="/services">Signature Services</a></li><li><a href="/about">About Sienna</a></li><li><a href="/contact">Contact</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="heading-accent"></span>Get In Touch</h3><ul class="footer-contact" aria-label="Contact information"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--hours"><h3 class="footer-heading"><span class="heading-accent"></span>Office Hours</h3><ul class="footer-hours" aria-label="Business hours"><li><a href="/"><span class="day">Mon – Fri</span><span class="time">9:00 AM – 6:00 PM</span></a></li><li><a href="/"><span class="day">Saturday</span><span class="time">10:00 AM – 4:00 PM</span></a></li><li><a href="/"><span class="day">Sunday</span><span class="time">Closed</span></a></li></ul><p class="hours-note">Private viewings available by appointment.</p></div></div><div class="footer-divider" role="separator"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 Sienna Rhodes - Real Estate. All rights reserved.</p><div class="footer-legal" aria-label="Legal links"><a href="/privacy">Privacy Policy</a><span class="legal-sep" aria-hidden="true">·</span><a href="/terms">Terms &amp; Conditions</a><span class="separator">|</span>
             <a href="/return-policy" aria-label="Return Policy">
               Return Policy
             </a><span class="legal-sep" aria-hidden="true">·</span><a href="/accessibility">Accessibility</a><span class="legal-sep" aria-hidden="true">·</span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
@@ -2505,6 +1222,148 @@
           observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
         });
       }, 500);
+    })();
+    </script>
+
+    <script>
+    (function(){
+      var _applied=false;
+      function _isHeroBg(w){var img=w.querySelector('img');if(img&&(img.getAttribute('data-hero-bg')==='true'||img.getAttribute('data-hero-background')==='true'))return true;var p=(w.style.position||'').replace(/\s*!important\s*/g,'').trim();var ww=(w.style.width||'').replace(/\s*!important\s*/g,'').trim();var hh=(w.style.height||'').replace(/\s*!important\s*/g,'').trim();return p==='absolute'&&ww==='100%'&&hh==='100%';}
+      function fixDesktopWrappers(){
+        // No-op: desktop wrapper restoration is handled by ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME
+        // in script.js (restoreWrapperDimensions). The old inflation logic here was expanding
+        // small wrappers (e.g. 139px logo wrappers) to their parent width, conflicting with
+        // the correct stored dimensions.
+      }
+      function _parsePos(s){var x=50,y=50;try{var m=(s||'').match(/(-?d+(?:.d+)?)%s+(-?d+(?:.d+)?)%/);if(m){x=parseFloat(m[1]);y=parseFloat(m[2]);}}catch(e){}if(!isFinite(x))x=50;if(!isFinite(y))y=50;return{x:Math.max(0,Math.min(100,x)),y:Math.max(0,Math.min(100,y))};}
+      function _coverPct(iA,cA){if(!isFinite(iA)||iA<=0||!isFinite(cA)||cA<=0)return{w:100,h:100};if(iA>=cA)return{w:(iA/cA)*100,h:100};return{w:100,h:(cA/iA)*100};}
+      function applyMobile(){
+        if(_applied)return;_applied=true;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(_isHeroBg(w))return;
+          var cw=w.style.getPropertyValue('width');
+          var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
+          var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
+          if(!cw&&!(_sW>0&&_sH>0))return;
+          if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
+          var img=w.querySelector('img');
+          if(!img)return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileZoomStr=img.getAttribute('data-zappy-mobile-zoom');
+          var mobileZoom=parseFloat(mobileZoomStr);
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          var parentOvf=w.parentElement?((w.parentElement.style.overflow||'')+(window.getComputedStyle(w.parentElement).overflow||'')).trim():'';
+          var inConstrainedParent=parentOvf.indexOf('hidden')!==-1||parentOvf.indexOf('clip')!==-1;
+          if(inConstrainedParent){
+            w.style.setProperty('max-width','100%','important');
+          }else{
+            w.style.setProperty('width','100%','important');
+            w.style.setProperty('max-width','100%','important');
+          }
+          if(mobileSrc)img.src=mobileSrc;
+          function _applyZoomCrop(_img,_w,_ePos,_eZoom){
+            var rect=_w.getBoundingClientRect();
+            if(!rect||!rect.width||!rect.height)return;
+            var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
+            if(!(nW>0&&nH>0))return;
+            var iA=nW/nH,cA=rect.width/rect.height;
+            var cv=_coverPct(iA,cA);
+            var wP=100,hP=100;
+            if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
+            else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
+            var p2=_parsePos(_ePos);
+            var lP=(100-wP)*(p2.x/100);
+            var tP=(100-hP)*(p2.y/100);
+            _img.style.setProperty('position','absolute','important');
+            _img.style.setProperty('left',lP+'%','important');
+            _img.style.setProperty('top',tP+'%','important');
+            _img.style.setProperty('width',wP+'%','important');
+            _img.style.setProperty('height',hP+'%','important');
+            _img.style.setProperty('max-width','none','important');
+            _img.style.setProperty('max-height','none','important');
+            _img.style.setProperty('display','block','important');
+            _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
+            _img.style.setProperty('transform','none','important');
+            _img.style.setProperty('margin','0','important');
+          }
+          if(_sW>0&&_sH>0){
+            var effZoom=(isFinite(mobileZoom)&&mobileZoom>0)?mobileZoom:(parseFloat(img.getAttribute('data-zappy-zoom'))||1);
+            var effPos=mobilePos||img.getAttribute('data-zappy-object-position')||img.style.objectPosition||'50% 50%';
+            w.style.setProperty('overflow','hidden','important');
+            w.style.setProperty('position','relative','important');
+            w.style.setProperty('width','100%','important');
+            w.style.setProperty('max-width','100%','important');
+            if(_sW>0&&_sH>0){w.style.setProperty('padding-bottom','0','important');w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
+            _applyZoomCrop(img,w,effPos,effZoom);
+            if(!(img.complete&&img.naturalWidth>0)){
+              (function(_i,_w2,_p,_z){_i.addEventListener('load',function _ol(){_i.removeEventListener('load',_ol);try{_applyZoomCrop(_i,_w2,_p,_z);}catch(e){}});
+              })(img,w,effPos,effZoom);
+            }
+          }else{
+            if(!inConstrainedParent)w.style.setProperty('height','auto','important');
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height',inConstrainedParent?'none':'400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+            img.style.setProperty('transform','none','important');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
+          if(zw&&!_isHeroBg(zw))return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          if(mobileSrc)img.src=mobileSrc;
+          if(mobilePos)img.style.setProperty('object-position',mobilePos,'important');
+          if(mobileZoom>1){
+            img.style.setProperty('transform','scale('+mobileZoom+')','important');
+            img.style.setProperty('transform-origin',mobilePos||'50% 50%','important');
+            var p=img.parentElement;
+            if(p)p.style.setProperty('overflow','hidden','important');
+          }
+        });
+      }
+      function revertDesktop(){
+        if(!_applied)return;_applied=false;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(w._zappyDesktop&&w._zappyDesktop.wStyle!=null){w.setAttribute('style',w._zappyDesktop.wStyle);}
+          var img=w.querySelector('img');
+          if(img&&img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
+          if(zw&&!_isHeroBg(zw))return;
+          if(img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        _fixHeroBgWrappers();
+        fixDesktopWrappers();
+      }
+      function _fixHeroBgWrappers(){var isMob=window.innerWidth<=768;document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){if(!_isHeroBg(w))return;w.style.setProperty('position','absolute','important');w.style.setProperty('top','0','important');w.style.setProperty('left','0','important');w.style.setProperty('width','100%','important');w.style.setProperty('height','100%','important');w.style.setProperty('max-width','none','important');w.style.setProperty('overflow','hidden','important');w.setAttribute('data-zappy-zoom-wrapper-width-mode','full');var img=w.querySelector('img');if(img){img.style.setProperty('width','100%','important');img.style.setProperty('height','100%','important');img.style.setProperty('object-fit','cover','important');img.style.setProperty('position','relative','important');img.style.setProperty('top','0','important');img.style.setProperty('left','0','important');img.style.setProperty('max-width','none','important');img.style.setProperty('max-height','none','important');img.style.setProperty('display','block','important');if(isMob){var mSrc=img.getAttribute('data-zappy-mobile-src');var mPos=img.getAttribute('data-zappy-mobile-object-position');var mZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));if(mSrc){if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};img.src=mSrc;}if(mPos)img.style.setProperty('object-position',mPos,'important');if(mZoom>1){img.style.setProperty('transform','scale('+mZoom+')','important');img.style.setProperty('transform-origin',mPos||'50% 50%','important');}}}});}
+      function init(){
+        _fixHeroBgWrappers();
+        var mq=window.matchMedia('(max-width:768px)');
+        function onChange(e){if(e.matches)applyMobile();else revertDesktop();}
+        if(mq.matches)applyMobile();
+        else fixDesktopWrappers();
+        try{mq.addEventListener('change',onChange);}catch(e){mq.addListener(onChange);}
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
+      else setTimeout(init,50);
     })();
     </script>
 </body>
