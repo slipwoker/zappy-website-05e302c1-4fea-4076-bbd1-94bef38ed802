@@ -12514,6 +12514,16 @@ html body .home-hero-section .home-hero-carousel .hero-carousel-img { top: 0 !im
 html body .home-hero-section .home-hero-carousel .hero-carousel-img { left: 0 !important; }
 html body .home-hero-section .home-hero-carousel .hero-carousel-img { height: 100% !important; }
 
+
+to { opacity: 1; } }
+to { opacity: 1; transform: translateY(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: scale(1); } }
+60% { opacity: 1; transform: translateY(-5px); } 100% { transform: translateY(0); } }
+to { opacity: 1; transform: perspective(400px) rotateY(0); } }
+to { opacity: 1; transform: rotate(0) scale(1); } }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
