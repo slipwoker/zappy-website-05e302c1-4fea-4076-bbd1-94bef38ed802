@@ -908,10 +908,26 @@
   
   <main id="main">
     <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="home-hero-section"><div class="home-hero-carousel">
-  <img loading="eager" fetchpriority="high" data-placeholder="home-hero-carousel-1" data-context="Sunlit California luxury villa exterior with a pristine infinity pool, white stucco architecture, and sweeping views of coastal hillside terrain bathed in golden afternoon light. Lush Mediterranean landscaping, terracotta accents, and a serene, aspirational atmosphere evoking premium California real estate." width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Luxury California villa with ocean hillside views" class="hero-carousel-img hero-carousel-img-1" data-element-type="image" data-element-id="img-1781703408954-0uqgp5sze">
-  <img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Luxury California estate with panoramic coastal views" class="hero-carousel-img hero-carousel-img-2" data-placeholder="home-hero-carousel-2" data-element-type="image">
-  <img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Premium California property with stunning architecture" class="hero-carousel-img hero-carousel-img-3" data-placeholder="home-hero-carousel-3" data-element-type="image">
-</div></section>
+  <img loading="eager" fetchpriority="high" data-placeholder="home-hero-carousel-1" data-context="Sunlit California luxury villa exterior with a pristine infinity pool, white stucco architecture, and sweeping views of coastal hillside terrain bathed in golden afternoon light. Lush Mediterranean landscaping, terracotta accents, and a serene, aspirational atmosphere evoking premium California real estate." width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Luxury California villa with ocean hillside views" class="hero-carousel-img active" data-element-type="image" data-element-id="img-1781703408954-0uqgp5sze">
+  <img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Luxury California estate with panoramic coastal views" class="hero-carousel-img" data-placeholder="home-hero-carousel-2" data-element-type="image">
+  <img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Premium California property with stunning architecture" class="hero-carousel-img" data-placeholder="home-hero-carousel-3" data-element-type="image">
+</div>
+<script>
+(function() {
+  const carousel = document.querySelector('.home-hero-carousel');
+  if (!carousel) return;
+  const imgs = carousel.querySelectorAll('.hero-carousel-img');
+  if (imgs.length < 2) return;
+  let current = 0;
+  const total = imgs.length;
+  function nextSlide() {
+    imgs[current].classList.remove('active');
+    current = (current + 1) % total;
+    imgs[current].classList.add('active');
+  }
+  setInterval(nextSlide, 4000);
+})();
+</script></section>
 
     
   
