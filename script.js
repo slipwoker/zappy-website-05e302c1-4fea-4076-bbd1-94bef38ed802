@@ -5836,7 +5836,6 @@ function stripHtmlToText(html) {
   return text;
 }
 
-
 function zappyApplyCustomerPercentToPrice(basePrice, productId) {
   function applyFromWindowConfig() {
     var cfg = window.__zappyCustomerDiscountConfig;
@@ -9639,7 +9638,6 @@ window.onload = function() {
     }, true);
 };
 
-
 // Zappy Contact Form API Integration (Fallback)
 (function() {
     if (window.zappyContactFormLoaded) {
@@ -9872,8 +9870,7 @@ window.onload = function() {
     }
 })();
 
-
-/* ZAPPY_BLOCK_RUNTIME_V2 */
+/* ZAPPY_BLOCK_RUNTIME_V3 */
 (function(){
   if (window.__zappyBlockRuntimeInstalled) return;
   window.__zappyBlockRuntimeInstalled = true;
@@ -9921,16 +9918,23 @@ window.onload = function() {
     });
     mo.observe(document.documentElement || document.body, { childList: true, subtree: true });
   } catch (e) {}
-  // Auto-size block iframes from their inner content height.
+  // Auto-size block iframes from their inner CONTENT height. The inner bridge
+  // measures a content wrapper (not the iframe viewport), so this is a stable
+  // fixed point — setting the iframe height does NOT change the reported content
+  // height, hence no feedback loop and no need for an arbitrary upper clamp. We
+  // only write when the value actually changed to avoid redundant style churn.
   window.addEventListener('message', function(e){
     var d = e && e.data;
     if (!d || d.__zappyBlock !== true || d.type !== 'resize') return;
     if (typeof d.id !== 'string') return;
     var frame = document.querySelector('iframe[data-zappy-block-frame="' + d.id.replace(/"/g, '') + '"]');
     var h = parseInt(d.height, 10);
-    if (frame && h > 0 && h < 20000) frame.style.height = (h + 2) + 'px';
+    if (!frame || !(h > 0)) return;
+    var cur = parseInt(frame.style.height, 10) || 0;
+    if (Math.abs(cur - h) >= 1) frame.style.height = h + 'px';
   });
 })();
+/* ZAPPY_BLOCK_RUNTIME_END */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
