@@ -1097,6 +1097,359 @@
 }
 
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #2B1E14;
+  color: var(--text-light);
+  padding: 120px 24px 100px;
+}
+
+/* Background Image Layer */
+.home-hero-section__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.home-hero-section__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Warm Amber-to-Terracotta Overlay Scrim */
+.home-hero-section__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    rgba(199, 91, 57, 0.35) 0%,
+    rgba(180, 80, 50, 0.45) 30%,
+    rgba(43, 30, 20, 0.75) 70%,
+    rgba(43, 30, 20, 0.92) 100%
+  );
+  pointer-events: none;
+}
+
+/* SR Monogram Watermark */
+.home-hero-section__watermark {
+  position: absolute;
+  bottom: 120px;
+  right: 40px;
+  width: 320px;
+  height: 320px;
+  z-index: 2;
+  pointer-events: none;
+  color: var(--secondary);
+  opacity: 0.06;
+}
+
+.home-hero-section__watermark svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Decorative Corner Brackets */
+.home-hero-section__corner {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+  pointer-events: none;
+  color: var(--secondary);
+  opacity: 0.5;
+}
+
+.home-hero-section__corner--tl {
+  top: 40px;
+  left: 40px;
+}
+
+.home-hero-section__corner--tr {
+  top: 40px;
+  right: 40px;
+}
+
+.home-hero-section__corner--bl {
+  bottom: 100px;
+  left: 40px;
+}
+
+.home-hero-section__corner--br {
+  bottom: 100px;
+  right: 40px;
+}
+
+.home-hero-section__corner svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* 8-Pointed Star Arabesque Monogram */
+.home-hero-section__star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  pointer-events: none;
+  color: var(--secondary);
+  opacity: 0.07;
+}
+
+.home-hero-section__star svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Content Overlay Group */
+.home-hero-section__content {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+/* Ornamental Gold Divider Line */
+.home-hero-section__divider-line {
+  width: 200px;
+  height: 20px;
+  color: var(--secondary);
+  opacity: 0.8;
+}
+
+.home-hero-section__divider-line svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Headline */
+.home-hero-section__headline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-light);
+  margin: 0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+}
+
+/* Subtitle */
+.home-hero-section__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-light);
+  margin: 0;
+  opacity: 0.9;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+}
+
+/* CTAs Container */
+.home-hero-section__ctas {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* Primary Button - Moorish Arched Styling */
+.home-hero-section__btn--primary {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--text-light);
+  padding: 14px 32px;
+  border-radius: 100px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 24px rgba(199, 91, 57, 0.35);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-hero-section__btn--primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 100px;
+  border: 1.5px solid var(--secondary);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.home-hero-section__btn--primary:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(199, 91, 57, 0.5);
+}
+
+/* Secondary Button - Ghost with Gold Border */
+.home-hero-section__btn--secondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--text-light);
+  padding: 14px 32px;
+  border-radius: 100px;
+  border: 1.5px solid var(--secondary);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(4px);
+  background: rgba(43, 30, 20, 0.3);
+}
+
+.home-hero-section__btn--secondary:hover {
+  background: rgba(212, 168, 67, 0.15);
+  border-color: var(--accent);
+  color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+/* Moroccan Zellige-Pattern Border at Bottom */
+.home-hero-section__zellige-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 5;
+  pointer-events: none;
+  color: var(--secondary);
+  opacity: 0.7;
+}
+
+.home-hero-section__zellige-border svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home-hero-section {
+    padding: 100px 16px 80px;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  .home-hero-section__headline {
+    font-size: 2.2rem;
+    max-width: 100%;
+  }
+
+  .home-hero-section__subtitle {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .home-hero-section__ctas {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .home-hero-section__btn--primary,
+  .home-hero-section__btn--secondary {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+  }
+
+  .home-hero-section__watermark {
+    width: 180px;
+    height: 180px;
+    bottom: 100px;
+    right: 10px;
+    opacity: 0.04;
+  }
+
+  .home-hero-section__star {
+    width: 250px;
+    height: 250px;
+    opacity: 0.05;
+  }
+
+  .home-hero-section__corner {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-hero-section__corner--tl {
+    top: 20px;
+    left: 16px;
+  }
+
+  .home-hero-section__corner--tr {
+    top: 20px;
+    right: 16px;
+  }
+
+  .home-hero-section__corner--bl {
+    bottom: 80px;
+    left: 16px;
+  }
+
+  .home-hero-section__corner--br {
+    bottom: 80px;
+    right: 16px;
+  }
+
+  .home-hero-section__zellige-border {
+    height: 40px;
+  }
+
+  .home-hero-section__divider-line {
+    width: 140px;
+    height: 16px;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:home-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1690,27 +2043,89 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="home-hero-section"><div class="home-hero-carousel">
-  <img loading="eager" fetchpriority="high" data-placeholder="home-hero-carousel-1" data-context="Sunlit California luxury villa exterior with a pristine infinity pool, white stucco architecture, and sweeping views of coastal hillside terrain bathed in golden afternoon light. Lush Mediterranean landscaping, terracotta accents, and a serene, aspirational atmosphere evoking premium California real estate." width="1440" height="900" src="/assets/site-home-hero-image-1.webp" alt="Luxury California villa with ocean hillside views" class="hero-carousel-img active" data-element-type="image" data-element-id="img-1781703408954-0uqgp5sze">
-  <img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1-1781704741102-ze2w8e.webp?v=1781704741102" alt="Luxury California estate with panoramic coastal views" class="hero-carousel-img" data-placeholder="home-hero-carousel-2" data-element-type="image">
-  <img loading="lazy" width="1440" height="900" src="/assets/site-home-hero-image-1-1781704770960-laa0q6.webp?v=1781704770960" alt="Premium California property with stunning architecture" class="hero-carousel-img" data-placeholder="home-hero-carousel-3" data-element-type="image">
-</div>
-<script>
-(function() {
-  const carousel = document.querySelector('.home-hero-carousel');
-  if (!carousel) return;
-  const imgs = carousel.querySelectorAll('.hero-carousel-img');
-  if (imgs.length < 2) return;
-  let current = 0;
-  const total = imgs.length;
-  function nextSlide() {
-    imgs[current].classList.remove('active');
-    current = (current + 1) % total;
-    imgs[current].classList.add('active');
-  }
-  setInterval(nextSlide, 4000);
-})();
-</script></section>
+    <section class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="home-hero-section">
+  <!-- Background Image -->
+  <div class="home-hero-section__bg">
+    <img data-hero-bg="true" data-context="Luxury California villa with Moroccan riad courtyard aesthetic, warm terracotta and amber tones, elegant archways, lush greenery, golden hour sunlight casting soft shadows, high-end real estate photography style" width="1200" height="600" src="/assets/sienna-rhodes-real-estate-real-estate-section-Home-hero-home-hero-image-1.webp" alt="Luxury California villa with Moroccan inspired courtyard" class="home-hero-section__bg-img">
+  </div>
+
+  <!-- Warm Amber-to-Terracotta Overlay Scrim -->
+  <div class="home-hero-section__scrim" aria-hidden="true"></div>
+
+  <!-- Decorative SR Monogram Watermark -->
+  <div class="home-hero-section__watermark" aria-hidden="true">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <path d="M60 40 L60 160 M60 100 L140 100 M100 40 L100 160 M140 40 L140 160 M40 40 L40 160 M160 40 L160 160" stroke="currentColor" stroke-width="2" fill="none" opacity="0.7"></path>
+      <circle cx="100" cy="100" r="70" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"></circle>
+    </svg>
+  </div>
+
+  <!-- Decorative Corner Brackets -->
+  <div class="home-hero-section__corner home-hero-section__corner--tl" aria-hidden="true">
+    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <path d="M5 55 L5 5 L55 5" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+    </svg>
+  </div>
+  <div class="home-hero-section__corner home-hero-section__corner--tr" aria-hidden="true">
+    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <path d="M5 5 L55 5 L55 55" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+    </svg>
+  </div>
+  <div class="home-hero-section__corner home-hero-section__corner--bl" aria-hidden="true">
+    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <path d="M5 5 L5 55 L55 55" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+    </svg>
+  </div>
+  <div class="home-hero-section__corner home-hero-section__corner--br" aria-hidden="true">
+    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <path d="M55 5 L55 55 L5 55" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+    </svg>
+  </div>
+
+  <!-- Decorative 8-Pointed Star Arabesque Monogram -->
+  <div class="home-hero-section__star" aria-hidden="true">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <polygon points="50,5 61,35 95,35 68,55 79,85 50,65 21,85 32,55 5,35 39,35" fill="none" stroke="currentColor" stroke-width="1.2"></polygon>
+      <circle cx="50" cy="50" r="15" fill="none" stroke="currentColor" stroke-width="0.8"></circle>
+    </svg>
+  </div>
+
+  <!-- Content Overlay Group -->
+  <div class="home-hero-section__content">
+    <!-- Ornamental Gold Divider Line Above Headline -->
+    <div class="home-hero-section__divider-line" aria-hidden="true">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+        <line x1="0" y1="10" x2="85" y2="10" stroke="currentColor" stroke-width="1"></line>
+        <circle cx="100" cy="10" r="3" fill="currentColor"></circle>
+        <line x1="115" y1="10" x2="200" y2="10" stroke="currentColor" stroke-width="1"></line>
+      </svg>
+    </div>
+
+    <h1 class="home-hero-section__headline">California's Most Coveted Addresses Begin Here</h1>
+    <h3 class="home-hero-section__subtitle">Sienna Rhodes specializes in high-end condos and private villas for discerning buyers seeking the pinnacle of West Coast luxury living.</h3>
+    
+    <div class="home-hero-section__ctas">
+      <a href="/contact" class="home-hero-section__btn home-hero-section__btn--primary">Inquire Now</a>
+      <a href="/about" class="home-hero-section__btn home-hero-section__btn--secondary">Meet Sienna</a>
+    </div>
+  </div>
+
+  <!-- Moroccan Zellige-Pattern Border at Bottom -->
+  <div class="home-hero-section__zellige-border" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <defs>
+        <pattern id="zellige-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+          <polygon points="20,2 38,20 20,38 2,20" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.5"></polygon>
+          <polygon points="20,10 30,20 20,30 10,20" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.3"></polygon>
+          <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.6"></circle>
+        </pattern>
+      </defs>
+      <rect x="0" y="0" width="1200" height="60" fill="url(#zellige-pattern)"></rect>
+      <line x1="0" y1="2" x2="1200" y2="2" stroke="currentColor" stroke-width="1" opacity="0.7"></line>
+      <line x1="0" y1="58" x2="1200" y2="58" stroke="currentColor" stroke-width="1" opacity="0.7"></line>
+    </svg>
+  </div>
+</section>
 
     
   
@@ -2029,7 +2444,7 @@
 </section>
   </main>
   
-  <footer class="site-footer" aria-label="Site Footer"><div class="footer-inner"><div class="footer-top"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link" aria-label="Sienna Rhodes - Real Estate home"><img class="logo" data-placeholder="logo" data-context="business logo" width="150" height="40" src="/assets/site-home-image-1.webp" alt="Sienna Rhodes - Real Estate"></a><p class="footer-tagline">California's trusted advisor for prestigious condos and private villas. Curated real estate experiences built on elegance, clarity, and personal credibility.</p><div class="footer-social" aria-label="Social media links"></div></div><div class="footer-col footer-col--links"><h3 class="footer-heading"><span class="heading-accent"></span>Quick Links</h3><ul class="footer-nav" aria-label="Quick navigation links"><li><a href="/">Home</a></li><li><a href="/services">Signature Services</a></li><li><a href="/about">About Sienna</a></li><li><a href="/contact">Contact</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="heading-accent"></span>Get In Touch</h3><ul class="footer-contact" aria-label="Contact information"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--hours"><h3 class="footer-heading"><span class="heading-accent"></span>Office Hours</h3><ul class="footer-hours" aria-label="Business hours"><li><a href="/"><span class="day">Mon – Fri</span><span class="time">9:00 AM – 6:00 PM</span></a></li><li><a href="/"><span class="day">Saturday</span><span class="time">10:00 AM – 4:00 PM</span></a></li><li><a href="/"><span class="day">Sunday</span><span class="time">Closed</span></a></li></ul><p class="hours-note">Private viewings available by appointment.</p></div></div><div class="footer-divider" role="separator"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 Sienna Rhodes - Real Estate. All rights reserved.</p><div class="footer-legal" aria-label="Legal links"><a href="/privacy">Privacy Policy</a><span class="legal-sep" aria-hidden="true">·</span><a href="/terms">Terms &amp; Conditions</a><span class="separator">|</span>
+  <footer class="site-footer" aria-label="Site Footer" style="background-color: #2B1E14; color: #FDF6EC"><div class="footer-inner"><div class="footer-top"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link" aria-label="Sienna Rhodes - Real Estate home"><img class="logo" data-placeholder="logo" data-context="business logo" width="150" height="40" src="/assets/site-home-image-1.webp" alt="Sienna Rhodes - Real Estate"></a><p class="footer-tagline">California's trusted advisor for prestigious condos and private villas. Curated real estate experiences built on elegance, clarity, and personal credibility.</p><div class="footer-social" aria-label="Social media links"></div></div><div class="footer-col footer-col--links"><h3 class="footer-heading"><span class="heading-accent"></span>Quick Links</h3><ul class="footer-nav" aria-label="Quick navigation links"><li><a href="/">Home</a></li><li><a href="/services">Signature Services</a></li><li><a href="/about">About Sienna</a></li><li><a href="/contact">Contact</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="heading-accent"></span>Get In Touch</h3><ul class="footer-contact" aria-label="Contact information"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--hours"><h3 class="footer-heading"><span class="heading-accent"></span>Office Hours</h3><ul class="footer-hours" aria-label="Business hours"><li><a href="/"><span class="day">Mon – Fri</span><span class="time">9:00 AM – 6:00 PM</span></a></li><li><a href="/"><span class="day">Saturday</span><span class="time">10:00 AM – 4:00 PM</span></a></li><li><a href="/"><span class="day">Sunday</span><span class="time">Closed</span></a></li></ul><p class="hours-note">Private viewings available by appointment.</p></div></div><div class="footer-divider" role="separator"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 Sienna Rhodes - Real Estate. All rights reserved.</p><div class="footer-legal" aria-label="Legal links"><a href="/privacy">Privacy Policy</a><span class="legal-sep" aria-hidden="true">·</span><a href="/terms">Terms &amp; Conditions</a><span class="separator">|</span>
             <a href="/return-policy" aria-label="Return Policy">
               Return Policy
             </a><span class="legal-sep" aria-hidden="true">·</span><a href="/accessibility">Accessibility</a><span class="legal-sep" aria-hidden="true">·</span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
