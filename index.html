@@ -528,6 +528,258 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-testimonials-section {
+  position: relative;
+  overflow: visible;
+  background-color: #1C3A4A;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(200,169,110,0.06) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(200,169,110,0.04) 0%, transparent 50%),
+    linear-gradient(180deg, #1C3A4A 0%, #152D3A 100%);
+  color: var(--text-light);
+  padding: 100px 16px 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Background Zellige Pattern */
+.home-testimonials-section__bg-pattern {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.04;
+  background-image: repeating-linear-gradient(45deg, var(--secondary) 0px, var(--secondary) 1px, transparent 1px, transparent 20px),
+                    repeating-linear-gradient(-45deg, var(--secondary) 0px, var(--secondary) 1px, transparent 1px, transparent 20px);
+}
+
+/* Decorative Lantern */
+.home-testimonials-section__decor-lantern {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  z-index: 1;
+  pointer-events: none;
+  width: 120px;
+  height: 180px;
+  opacity: 0.6;
+}
+
+.home-testimonials-section__decor-lantern svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Container */
+.home-testimonials-section__container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Header */
+.home-testimonials-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.home-testimonials-section__divider-ornament {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-testimonials-section__divider-ornament svg {
+  width: 200px;
+  height: 20px;
+}
+
+.home-testimonials-section__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--text-light);
+  margin: 0 0 16px;
+}
+
+.home-testimonials-section__subtitle {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-light);
+  opacity: 0.8;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid */
+.home-testimonials-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* Card */
+.home-testimonials-section__card {
+  position: relative;
+  background: var(--bg-light);
+  border-radius: 4px;
+  box-shadow: 0 10px 40px rgba(28,58,74,0.15);
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-testimonials-section__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(28,58,74,0.25);
+}
+
+/* Arched Top */
+.home-testimonials-section__card-arch {
+  position: absolute;
+  top: -38px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.home-testimonials-section__card-arch svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Card Inner */
+.home-testimonials-section__card-inner {
+  padding: 48px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: var(--text-dark);
+}
+
+/* Quote Icon */
+.home-testimonials-section__quote-icon {
+  margin-bottom: 20px;
+  width: 48px;
+  height: 48px;
+  color: var(--secondary);
+  opacity: 0.7;
+}
+
+.home-testimonials-section__quote-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Quote Text */
+.home-testimonials-section__quote {
+  margin: 0 0 24px;
+  flex: 1;
+}
+
+.home-testimonials-section__quote p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #4A5F6A;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Divider */
+.home-testimonials-section__divider {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-testimonials-section__divider svg {
+  width: 120px;
+  height: 10px;
+}
+
+/* Client Info */
+.home-testimonials-section__client {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.home-testimonials-section__client-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #1A2832;
+}
+
+.home-testimonials-section__client-role {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6B7C88;
+}
+
+/* Bottom Scalloped Divider */
+.home-testimonials-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-testimonials-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-testimonials-section {
+    padding: 80px 16px 80px;
+  }
+
+  .home-testimonials-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px;
+  }
+
+  .home-testimonials-section__title {
+    font-size: 2rem;
+  }
+
+  .home-testimonials-section__card-inner {
+    padding: 48px 24px 24px;
+  }
+
+  .home-testimonials-section__decor-lantern {
+    display: none;
+  }
+
+  .home-testimonials-section__header {
+    margin-bottom: 40px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1240,89 +1492,143 @@
   </div>
 </section>
 
-<section data-band-index="2" class="home-testimonials-section" data-layout-spec="Home-testimonials">
-  <!-- Subtle SR monogram watermark -->
-  <div class="home-testimonials-section__watermark" aria-hidden="true">
-    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true" aria-hidden="true">
-      <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="160" font-weight="300" fill="#D4A843" opacity="0.06" letter-spacing="-8">SR</text>
+<section class="home-testimonials-section" data-layout-spec="Home-testimonials">
+  <!-- Background Pattern -->
+  <div class="home-testimonials-section__bg-pattern" aria-hidden="true"></div>
+
+  <!-- Decorative Lantern SVG Top Left -->
+  <div class="home-testimonials-section__decor-lantern" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 180" xmlns="http://www.w3.org/2000/svg">
+      <path d="M60,20 L70,40 L110,45 L80,70 L85,110 L60,90 L35,110 L40,70 L10,45 L50,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1.5" opacity="0.3"></path>
+      <path d="M60,30 L66,42 L80,44 L68,58 L70,80 L60,68 L50,80 L52,58 L40,44 L54,42 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
+      <circle cx="60" cy="55" r="3" fill="var(--secondary)" opacity="0.5"></circle>
+      <line x1="60" y1="90" x2="60" y2="110" stroke="var(--secondary)" stroke-width="1.5" opacity="0.3"></line>
     </svg>
   </div>
 
+  <!-- Container -->
   <div class="home-testimonials-section__container">
     <!-- Section Header -->
-    <header class="home-testimonials-section__header">
-      <p class="home-testimonials-section__eyebrow">Client Experiences</p>
-      <div class="home-testimonials-section__gold-rule" aria-hidden="true"></div>
-      <h2 class="home-testimonials-section__heading">Trusted by Those Who Expect the Best</h2>
-      <p class="home-testimonials-section__intro">Every transaction is a relationship built on discretion, expertise, and an unwavering commitment to finding the right property. Here is what a few clients have shared about working with Sienna.</p>
-    </header>
+    <div class="home-testimonials-section__header">
+      <div class="home-testimonials-section__divider-ornament" aria-hidden="true">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="10" x2="70" y2="10" stroke="var(--secondary)" stroke-width="1" opacity="0.6"></line>
+          <path d="M80,10 L85,5 L90,10 L85,15 Z" fill="var(--secondary)" opacity="0.6"></path>
+          <path d="M100,10 L105,5 L110,10 L105,15 Z" fill="var(--secondary)" opacity="0.6"></path>
+          <circle cx="95" cy="10" r="1.5" fill="var(--secondary)" opacity="0.6"></circle>
+          <line x1="115" y1="10" x2="200" y2="10" stroke="var(--secondary)" stroke-width="1" opacity="0.6"></line>
+        </svg>
+      </div>
+      <h2 class="home-testimonials-section__title">Esteemed Client Perspectives</h2>
+      <p class="home-testimonials-section__subtitle">Trust, discretion, and access — the cornerstones of every relationship.</p>
+    </div>
 
-    <nav class="zappy-catalog-menu ltr" id="zappy-catalog-menu" dir="ltr" style="display:none">
-      <div class="catalog-menu-container">
-        <a href="/en/products" class="catalog-menu-item catalog-menu-all">All Products</a>
-        <div class="catalog-menu-categories" id="zappy-category-links">
-          <!-- Categories will be loaded dynamically -->
+    <!-- Testimonials Grid -->
+    <div class="home-testimonials-section__grid">
+      
+      <!-- Card 1 -->
+      <div class="home-testimonials-section__card">
+        <div class="home-testimonials-section__card-arch" aria-hidden="true">
+          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 L0,10 Q200,-30 400,10 L400,40 Z" fill="var(--bg-light)"></path>
+            <path d="M0,40 L0,12 Q200,-26 400,12 L400,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
+          </svg>
+        </div>
+        <div class="home-testimonials-section__card-inner">
+          <div class="home-testimonials-section__quote-icon" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12,20 C8,20 4,24 4,30 C4,38 10,40 14,36 C16,34 16,30 14,28 C12,26 10,26 10,28 C10,30 12,32 10,36 C8,40 4,36 4,30 C4,24 8,20 12,20 Z" fill="var(--secondary)" opacity="0.6"></path>
+              <path d="M36,20 C32,20 28,24 28,30 C28,38 34,40 38,36 C40,34 40,30 38,28 C36,26 34,26 34,28 C34,30 36,32 34,36 C32,40 28,36 28,30 C28,24 32,20 36,20 Z" fill="var(--secondary)" opacity="0.6"></path>
+            </svg>
+          </div>
+          <blockquote class="home-testimonials-section__quote">
+            <p>Sienna's understanding of the Silicon Valley luxury market is unparalleled. She found us a private villa that wasn't even listed yet — her discretion and network are invaluable. The entire process felt effortless and truly bespoke.</p>
+          </blockquote>
+          <div class="home-testimonials-section__divider" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0" y1="5" x2="40" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
+              <circle cx="60" cy="5" r="2" fill="var(--secondary)" opacity="0.5"></circle>
+              <line x1="80" y1="5" x2="120" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
+            </svg>
+          </div>
+          <div class="home-testimonials-section__client">
+            <span class="home-testimonials-section__client-name">Marcus Thorne</span>
+            <span class="home-testimonials-section__client-role">Tech Entrepreneur &amp; Buyer</span>
+          </div>
         </div>
       </div>
-    </nav>
-  
 
-    <!-- Testimonial Grid -->
-    <div class="home-testimonials-section__grid">
-
-      <!-- Card 1: Tech Entrepreneur -->
-      <article class="home-testimonials-section__card">
-        <div class="home-testimonials-section__card-inner">
-          <div class="home-testimonials-section__quote-mark" aria-hidden="true">“</div>
-          <blockquote class="home-testimonials-section__quote">
-            <p>Sienna moved with the same precision and speed I demand from my own team. She understood exactly what I was looking for in a Malibu residence — private, architecturally significant, and investment-sound. We closed in under three weeks. Exceptional access to properties that never reach the public market.</p>
-          </blockquote>
-          <footer class="home-testimonials-section__card-footer">
-            <div class="home-testimonials-section__thin-rule" aria-hidden="true"></div>
-            <p class="home-testimonials-section__client-type">Tech Entrepreneur &amp; First-Time Luxury Buyer</p>
-            <p class="home-testimonials-section__outcome">Off-market Malibu villa — acquired $4.2M</p>
-          </footer>
+      <!-- Card 2 -->
+      <div class="home-testimonials-section__card">
+        <div class="home-testimonials-section__card-arch" aria-hidden="true">
+          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 L0,10 Q200,-30 400,10 L400,40 Z" fill="var(--bg-light)"></path>
+            <path d="M0,40 L0,12 Q200,-26 400,12 L400,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
+          </svg>
         </div>
-      </article>
-
-      <!-- Card 2: International Investor -->
-      <article class="home-testimonials-section__card">
         <div class="home-testimonials-section__card-inner">
-          <div class="home-testimonials-section__quote-mark" aria-hidden="true">“</div>
+          <div class="home-testimonials-section__quote-icon" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12,20 C8,20 4,24 4,30 C4,38 10,40 14,36 C16,34 16,30 14,28 C12,26 10,26 10,28 C10,30 12,32 10,36 C8,40 4,36 4,30 C4,24 8,20 12,20 Z" fill="var(--secondary)" opacity="0.6"></path>
+              <path d="M36,20 C32,20 28,24 28,30 C28,38 34,40 38,36 C40,34 40,30 38,28 C36,26 34,26 34,28 C34,30 36,32 34,36 C32,40 28,36 28,30 C28,24 32,20 36,20 Z" fill="var(--secondary)" opacity="0.6"></path>
+            </svg>
+          </div>
           <blockquote class="home-testimonials-section__quote">
-            <p>As an international investor navigating California's residential real estate market for the first time, I needed someone I could trust completely. Sienna's knowledge of the premium condo landscape in Los Angeles and her calm, measured guidance made a complex process feel effortless. She is, without question, the right advisor.</p>
+            <p>As an international investor, I needed someone who understood discretion and high-value asset acquisition. Sienna guided me through the California coastal market with calm expertise, securing a penthouse that exceeded every expectation.</p>
           </blockquote>
-          <footer class="home-testimonials-section__card-footer">
-            <div class="home-testimonials-section__thin-rule" aria-hidden="true"></div>
-            <p class="home-testimonials-section__client-type">International Investor — Singapore</p>
-            <p class="home-testimonials-section__outcome">Penthouse acquisition, West Hollywood — $3.8M</p>
-          </footer>
+          <div class="home-testimonials-section__divider" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0" y1="5" x2="40" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
+              <circle cx="60" cy="5" r="2" fill="var(--secondary)" opacity="0.5"></circle>
+              <line x1="80" y1="5" x2="120" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
+            </svg>
+          </div>
+          <div class="home-testimonials-section__client">
+            <span class="home-testimonials-section__client-name">Elena Vasquez</span>
+            <span class="home-testimonials-section__client-role">International Investor</span>
+          </div>
         </div>
-      </article>
+      </div>
 
-      <!-- Card 3: Retiree Relocating -->
-      <article class="home-testimonials-section__card">
-        <div class="home-testimonials-section__card-inner">
-          <div class="home-testimonials-section__quote-mark" aria-hidden="true">“</div>
-          <blockquote class="home-testimonials-section__quote">
-            <p>Relocating from the East Coast at this stage of life required a very particular kind of patience and understanding. Sienna listened. She never rushed us, never pushed. She simply presented the right options at the right moment — and the La Jolla villa we found together is everything we dreamed of for this chapter.</p>
-          </blockquote>
-          <footer class="home-testimonials-section__card-footer">
-            <div class="home-testimonials-section__thin-rule" aria-hidden="true"></div>
-            <p class="home-testimonials-section__client-type">Retiree Relocating to California</p>
-            <p class="home-testimonials-section__outcome">Oceanfront villa, La Jolla — $5.1M</p>
-          </footer>
+      <!-- Card 3 -->
+      <div class="home-testimonials-section__card">
+        <div class="home-testimonials-section__card-arch" aria-hidden="true">
+          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 L0,10 Q200,-30 400,10 L400,40 Z" fill="var(--bg-light)"></path>
+            <path d="M0,40 L0,12 Q200,-26 400,12 L400,40 Z" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></path>
+          </svg>
         </div>
-      </article>
+        <div class="home-testimonials-section__card-inner">
+          <div class="home-testimonials-section__quote-icon" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12,20 C8,20 4,24 4,30 C4,38 10,40 14,36 C16,34 16,30 14,28 C12,26 10,26 10,28 C10,30 12,32 10,36 C8,40 4,36 4,30 C4,24 8,20 12,20 Z" fill="var(--secondary)" opacity="0.6"></path>
+              <path d="M36,20 C32,20 28,24 28,30 C28,38 34,40 38,36 C40,34 40,30 38,28 C36,26 34,26 34,28 C34,30 36,32 34,36 C32,40 28,36 28,30 C28,24 32,20 36,20 Z" fill="var(--secondary)" opacity="0.6"></path>
+            </svg>
+          </div>
+          <blockquote class="home-testimonials-section__quote">
+            <p>Relocating to California felt daunting until we met Sienna. She listened, understood our lifestyle, and found a serene coastal retreat that felt like home instantly. Her calm guidance made all the difference.</p>
+          </blockquote>
+          <div class="home-testimonials-section__divider" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 10" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0" y1="5" x2="40" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
+              <circle cx="60" cy="5" r="2" fill="var(--secondary)" opacity="0.5"></circle>
+              <line x1="80" y1="5" x2="120" y2="5" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
+            </svg>
+          </div>
+          <div class="home-testimonials-section__client">
+            <span class="home-testimonials-section__client-name">David &amp; Susan Chen</span>
+            <span class="home-testimonials-section__client-role">Retirees Relocating to California</span>
+          </div>
+        </div>
+      </div>
 
     </div>
-    <!-- End Grid -->
   </div>
 
-  <!-- Bottom Wave Divider transitioning to light section -->
-  <div class="home-testimonials-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,52 Q120,38 240,50 T480,44 Q600,52 720,42 T960,48 Q1080,38 1200,50 T1440,44 L1440,90 Z" fill="#F5F2EE"></path>
+  <!-- Bottom Scalloped Divider -->
+  <div class="home-testimonials-section__divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,40 Q75,20 150,35 T300,30 Q375,40 450,25 T600,35 Q675,20 750,30 T900,25 Q975,35 1050,30 T1200,40 L1200,80 Z" fill="#F5F2EE"></path>
     </svg>
   </div>
 </section>
